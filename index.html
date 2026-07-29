@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LLM API Pricing — compare OpenAI, Gemini, Claude & OpenRouter costs</title>
+<meta name="description" content="Daily-updated pricing for OpenAI, Google Gemini, Anthropic Claude and OpenRouter models — USD cost per 1 million input and output tokens, sortable by provider and price.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <h1>LLM API Pricing</h1>
+  <p class="lede">
+    Cost per 1,000,000 tokens for OpenAI, Google Gemini, Anthropic Claude and OpenRouter models,
+    in USD. Regenerated daily from each provider's official pricing pages, as plain JSON you can
+    pull straight into your own scripts — no manual cost calculations or hardcoded price tables.
+  </p>
+</header>
+
+<main class="sheet">
+  <div class="controls">
+    <label class="select-wrap">
+      <span>Provider</span>
+      <select id="providerSelect">
+        <option value="all">All providers</option>
+      </select>
+    </label>
+    <button type="button" class="download-btn" id="downloadBtn">Download JSON</button>
+    <p class="count" id="rowCount" aria-live="polite"></p>
+  </div>
+
+  <div class="table-wrap">
+    <table class="rates" id="ratesTable">
+      <thead>
+        <tr>
+          <th data-key="provider" tabindex="0" role="button" aria-sort="none">Provider</th>
+          <th data-key="model" tabindex="0" role="button" aria-sort="none">Model</th>
+          <th data-key="input" tabindex="0" role="button" aria-sort="none" class="col-num">Input $/1M</th>
+          <th data-key="output" tabindex="0" role="button" aria-sort="descending" class="col-num">Output $/1M</th>
+        </tr>
+      </thead>
+      <tbody id="ratesBody">
+        <tr><td colspan="4" class="empty">Loading pricing…</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer class="foot">
+  <p>Sources: <a href="https://ai.google.dev/gemini-api/docs/pricing" target="_blank" rel="noopener">Google Gemini</a> ·
+     <a href="https://developers.openai.com/api/docs/pricing" target="_blank" rel="noopener">OpenAI</a> ·
+     <a href="https://platform.claude.com/docs/en/about-claude/pricing" target="_blank" rel="noopener">Anthropic</a> ·
+     <a href="https://openrouter.ai/api/v1/models" target="_blank" rel="noopener">OpenRouter</a></p>
+  <p>Standard tier only, text token pricing only. Full data: <a href="llm_pricing.json">llm_pricing.json</a>.
+     See <a href="README.md">README</a> for scope details.</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

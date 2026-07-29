@@ -4,6 +4,8 @@ A daily-updated snapshot of LLM API pricing for **Google Gemini**, **OpenAI**, *
 
 Data is regenerated every day via [GitHub Actions](.github/workflows/update-pricing.yml) by [`pricing_scraper.py`](pricing_scraper.py).
 
+**Live table:** https://otbear.github.io/llm-api-pricing/
+
 ## Schema
 
 All prices are **USD per 1,000,000 tokens**, at each provider's standard (non-batch, non-priority) tier.
