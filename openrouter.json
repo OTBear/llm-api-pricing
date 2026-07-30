@@ -212,8 +212,8 @@
     "output": 1.25
   },
   "deepseek/deepseek-chat": {
-    "input": 0.2002,
-    "output": 0.8001
+    "input": 0.2574,
+    "output": 1.0287
   },
   "deepseek/deepseek-chat-v3-0324": {
     "input": 0.27,
@@ -396,8 +396,8 @@
     "output": 0.0
   },
   "google/gemma-4-31b-it": {
-    "input": 0.14,
-    "output": 0.4
+    "input": 0.1,
+    "output": 0.34
   },
   "google/gemma-4-31b-it:free": {
     "input": 0.0,
@@ -1080,8 +1080,8 @@
     "output": 0.4
   },
   "qwen/qwen-2.5-7b-instruct": {
-    "input": 0.04,
-    "output": 0.1
+    "input": 0.1,
+    "output": 0.2
   },
   "qwen/qwen-2.5-coder-32b-instruct": {
     "input": 0.66,
@@ -1152,8 +1152,8 @@
     "output": 0.975
   },
   "qwen/qwen3-coder-next": {
-    "input": 0.18,
-    "output": 0.9
+    "input": 0.12,
+    "output": 0.8
   },
   "qwen/qwen3-coder-plus": {
     "input": 0.65,
@@ -1184,8 +1184,8 @@
     "output": 4.0
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
-    "input": 0.13,
-    "output": 0.52
+    "input": 0.15,
+    "output": 0.6
   },
   "qwen/qwen3-vl-30b-a3b-thinking": {
     "input": 0.2,
@@ -1420,8 +1420,8 @@
     "output": 3.036
   },
   "z-ai/glm-5.2": {
-    "input": 0.7462,
-    "output": 2.3452
+    "input": 0.6993,
+    "output": 2.1978
   },
   "z-ai/glm-5v-turbo": {
     "input": 1.2,
@@ -1452,7 +1452,7 @@
     "output": 12.0
   },
   "~moonshotai/kimi-latest": {
-    "input": 3.0,
+    "input": 2.9,
     "output": 15.0
   },
   "~openai/gpt-latest": {
