@@ -106,5 +106,13 @@
   "gemini-robotics-er-1.6-preview": {
     "input": 1.0,
     "output": 5.0
+  },
+  "gemini-robotics-er-2-preview": {
+    "input": 2.0,
+    "output": 10.0
+  },
+  "gemini-robotics-er-2-streaming-preview": {
+    "input": 2.0,
+    "output": 10.0
   }
 }
