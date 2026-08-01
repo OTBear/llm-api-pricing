@@ -7,6 +7,10 @@
   --teal: #0d9488;
   --teal-dark: #0f766e;
   --teal-light: #f0fdfa;
+  --up: #dc2626;
+  --up-light: #fef2f2;
+  --down: #16a34a;
+  --down-light: #f0fdf4;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -187,6 +191,101 @@ table.rates {
 
 .copy-btn:hover { background: var(--teal); color: #fff; border-color: var(--teal); }
 .copy-btn.copied { opacity: 1; background: var(--teal-dark); color: #fff; border-color: var(--teal-dark); }
+
+.news {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.news__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.news__head h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.news__date {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.news__toggle {
+  font-family: var(--font);
+  font-size: 0.78rem;
+  color: var(--teal-dark);
+  background: var(--teal-light);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+.news__toggle:hover { background: var(--teal); color: #fff; border-color: var(--teal); }
+
+.news__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.news__list .news-item:last-child { border-bottom: none; }
+
+.news-arrow { font-weight: 700; width: 1em; text-align: center; }
+
+.news-detail {
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.news-up .news-arrow, .news-up .news-detail { color: var(--up); }
+.news-down .news-arrow, .news-down .news-detail { color: var(--down); }
+.news-new .news-arrow { color: var(--teal-dark); }
+.news-removed .news-arrow, .news-removed .news-detail { color: var(--text-muted); }
+
+.news__archive {
+  margin: 0.6rem 0 0;
+  font-size: 0.8rem;
+}
+
+.news-day {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 1.25rem;
+}
+
+.news-day summary {
+  cursor: pointer;
+  padding: 0.65rem 0;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.news-day[open] summary { border-bottom: 1px solid var(--border); }
+.news-day .news__list { padding: 0.25rem 0; }
 
 .foot {
   max-width: 860px;

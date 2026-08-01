@@ -58,8 +58,23 @@ print(pricing["anthropic"]["claude-sonnet-5"])
 
 - `history/<provider>/index.json` maps each model ID to its on-disk file, e.g. `{ "gpt-5": "gpt-5.jsonl" }`. Needed because some IDs (mostly on OpenRouter, e.g. `anthropic/claude-fable-5:batch`) contain characters that aren't safe as filenames.
 - `history/<provider>/<model>.jsonl` is [JSON Lines](https://jsonlines.org/): one `{"date": "2026-08-01", "input": 1.25, "output": 10.0}` object per line. A new line is only added when the price actually changes, so this is a changelog of price *changes*, not a daily snapshot — treat gaps between dates as "price unchanged."
+- `history/<provider>/active.json` is internal bookkeeping (which model IDs existed on the last run, used to detect new/removed models) — not something you need to read directly.
 
 On the [live table](https://otbear.github.io/llm-api-pricing/), click any model to see its price history charted on `model.html?provider=<provider>&model=<model>`.
+
+## News feed
+
+[`news/log.jsonl`](news/log.jsonl) is a daily digest of what changed, also written by `update_history.py`: one line per day that had at least one change, e.g.
+
+```json
+{"date": "2026-08-02", "events": [
+  {"type": "price_up", "provider": "openai", "model": "gpt-5", "field": "output", "old": 10.0, "new": 12.0, "pct": 20.0},
+  {"type": "new", "provider": "google", "model": "gemini-4-flash", "input": 0.5, "output": 2.0},
+  {"type": "removed", "provider": "anthropic", "model": "claude-opus-4-1", "last_input": 15.0, "last_output": 75.0}
+]}
+```
+
+`type` is `price_up`, `price_down`, `new`, or `removed`. Within a day, events are ordered price changes first (biggest `%` move first), then new/removed models for Google, OpenAI and Anthropic, then new/removed models for OpenRouter last — its catalog changes constantly, so its arrivals/departures are the least newsworthy part of the feed. The [live table](https://otbear.github.io/llm-api-pricing/) shows the latest day's changes at the top (collapsed, with a "show all" toggle); the full log is browsable on `news.html`.
 
 ## Sources
 

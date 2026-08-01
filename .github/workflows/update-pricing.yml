@@ -29,5 +29,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add llm_pricing.json google.json openai.json anthropic.json openrouter.json history
+          if [ -d news ]; then git add news; fi
           git diff --cached --quiet || git commit -m "Update LLM pricing data"
           git push

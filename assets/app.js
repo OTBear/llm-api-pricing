@@ -2,6 +2,12 @@
   "use strict";
 
   var DATA_URL = "llm_pricing.json";
+  var NEWS_URL = "news/log.jsonl";
+  var NEWS_LIMIT = 8;
+
+  var fmt = window.LLMP.fmt;
+  var escapeAttr = window.LLMP.escapeAttr;
+  var modelHref = window.LLMP.modelHref;
 
   var state = {
     data: {},
@@ -17,21 +23,11 @@
     body: document.getElementById("ratesBody"),
     table: document.getElementById("ratesTable"),
     count: document.getElementById("rowCount"),
+    newsSection: document.getElementById("newsSection"),
+    newsDate: document.getElementById("newsDate"),
+    newsList: document.getElementById("newsList"),
+    newsToggle: document.getElementById("newsToggle"),
   };
-
-  function fmt(n) {
-    if (n === 0) return "0.00";
-    if (n < 0.01) return n.toFixed(4);
-    return n.toFixed(2);
-  }
-
-  function escapeAttr(s) {
-    return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
-  }
-
-  function modelHref(provider, model) {
-    return "model.html?provider=" + encodeURIComponent(provider) + "&model=" + encodeURIComponent(model);
-  }
 
   function copyText(text) {
     if (navigator.clipboard && window.isSecureContext) {
@@ -188,6 +184,40 @@
     });
   }
 
+  function loadNews() {
+    fetch(NEWS_URL)
+      .then(function (res) { return res.ok ? res.text() : ""; })
+      .then(function (text) {
+        var lines = text.split("\n").filter(function (l) { return l.trim(); });
+        if (!lines.length) return;
+        var latest = JSON.parse(lines[lines.length - 1]);
+        if (!latest.events || !latest.events.length) return;
+
+        els.newsSection.hidden = false;
+        els.newsDate.textContent = latest.date;
+
+        var events = latest.events;
+        var expanded = false;
+
+        function draw() {
+          var shown = expanded ? events : events.slice(0, NEWS_LIMIT);
+          els.newsList.innerHTML = shown.map(window.LLMP.renderNewsEvent).join("");
+        }
+        draw();
+
+        if (events.length > NEWS_LIMIT) {
+          els.newsToggle.hidden = false;
+          els.newsToggle.textContent = "Show all " + events.length;
+          els.newsToggle.addEventListener("click", function () {
+            expanded = !expanded;
+            draw();
+            els.newsToggle.textContent = expanded ? "Show less" : "Show all " + events.length;
+          });
+        }
+      })
+      .catch(function () { /* news is a bonus section - fail quietly */ });
+  }
+
   fetch(DATA_URL)
     .then(function (res) {
       if (!res.ok) throw new Error("HTTP " + res.status);
@@ -208,4 +238,6 @@
       els.body.innerHTML =
         '<tr><td colspan="4" class="empty">Could not load ' + DATA_URL + ": " + err.message + "</td></tr>";
     });
+
+  loadNews();
 })();

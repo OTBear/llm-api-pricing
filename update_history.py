@@ -1,5 +1,6 @@
 """
-Maintains a per-model price changelog under history/<provider>/...
+Maintains a per-model price changelog under history/<provider>/..., and a
+daily news log of what changed (news/log.jsonl).
 
 Run this after pricing_scraper.py, in the same daily workflow step. It reads
 the combined snapshot (llm_pricing.json) that script just produced and, for
@@ -11,6 +12,18 @@ Some model IDs (mostly on OpenRouter, e.g. "anthropic/claude-fable-5:batch")
 contain characters that aren't safe as filenames. To avoid every consumer
 having to re-derive the same sanitization rule, each provider gets an
 history/<provider>/index.json mapping real model ID -> on-disk filename.
+
+Each provider also gets history/<provider>/active.json, a snapshot of which
+model IDs were present on the previous run - used only to detect models that
+appeared or disappeared since then (index.json itself never shrinks, since
+history should stay browsable for retired models).
+
+news/log.jsonl gets one line per day that had at least one change: price
+moves (with % change), new models, and removed models. Price changes are
+listed first (biggest % move first), then new/removed models for Google,
+OpenAI and Anthropic, then new/removed models for OpenRouter last - its
+catalog churns constantly, so its arrivals/departures are the least
+newsworthy part of the feed.
 """
 
 import datetime
@@ -20,6 +33,7 @@ import re
 
 SNAPSHOT_FILE = "llm_pricing.json"
 HISTORY_DIR = "history"
+NEWS_FILE = os.path.join("news", "log.jsonl")
 
 _UNSAFE_CHARS = re.compile(r"[^A-Za-z0-9._-]+")
 
@@ -59,7 +73,9 @@ def rewrite_last_line(path, entry):
 
 
 def append_line(path, entry):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    dirname = os.path.dirname(path)
+    if dirname:
+        os.makedirs(dirname, exist_ok=True)
     with open(path, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry, sort_keys=True) + "\n")
 
@@ -68,17 +84,52 @@ def price_differs(last, entry):
     return last["input"] != entry["input"] or last["output"] != entry["output"]
 
 
+def pct_change(old, new):
+    if old == 0:
+        return None
+    return round((new - old) / old * 100, 1)
+
+
+def price_change_events(provider, model_id, last, entry):
+    events = []
+    for field in ("input", "output"):
+        old, new = last[field], entry[field]
+        if old == new:
+            continue
+        events.append({
+            "type": "price_up" if new > old else "price_down",
+            "provider": provider,
+            "model": model_id,
+            "field": field,
+            "old": old,
+            "new": new,
+            "pct": pct_change(old, new),
+        })
+    return events
+
+
 def update_provider(provider, models, today):
     provider_dir = os.path.join(HISTORY_DIR, provider)
     index_path = os.path.join(provider_dir, "index.json")
+    active_path = os.path.join(provider_dir, "active.json")
 
     index = {}
     if os.path.exists(index_path):
         with open(index_path, "r", encoding="utf-8") as f:
             index = json.load(f)
 
+    is_first_run = not os.path.exists(active_path)
+    current_active = set(models.keys())
+    if is_first_run:
+        # Nothing to compare against yet - seed silently, no new/removed noise.
+        previous_active = set(current_active)
+    else:
+        with open(active_path, "r", encoding="utf-8") as f:
+            previous_active = set(json.load(f))
+
     used_paths = {rel_path: model_id for model_id, rel_path in index.items()}
     changed = 0
+    events = []
 
     for model_id in sorted(models):
         price = models[model_id]
@@ -94,19 +145,46 @@ def update_provider(provider, models, today):
         if last is None:
             append_line(full_path, entry)
             changed += 1
+            if model_id not in previous_active:
+                events.append({
+                    "type": "new", "provider": provider, "model": model_id,
+                    "input": entry["input"], "output": entry["output"],
+                })
         elif last["date"] == today:
             if price_differs(last, entry):
                 rewrite_last_line(full_path, entry)
+                events.extend(price_change_events(provider, model_id, last, entry))
                 changed += 1
         elif price_differs(last, entry):
             append_line(full_path, entry)
+            events.extend(price_change_events(provider, model_id, last, entry))
             changed += 1
+
+    for model_id in sorted(previous_active - current_active):
+        rel_path = index.get(model_id)
+        last = read_last_entry(os.path.join(provider_dir, rel_path)) if rel_path else None
+        events.append({
+            "type": "removed", "provider": provider, "model": model_id,
+            "last_input": last["input"] if last else None,
+            "last_output": last["output"] if last else None,
+        })
 
     os.makedirs(provider_dir, exist_ok=True)
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2, ensure_ascii=False, sort_keys=True)
+    with open(active_path, "w", encoding="utf-8") as f:
+        json.dump(sorted(current_active), f, indent=2, ensure_ascii=False)
 
-    return changed
+    return changed, events
+
+
+def write_news(today, events):
+    entry = {"date": today, "events": events}
+    last = read_last_entry(NEWS_FILE)
+    if last is not None and last.get("date") == today:
+        rewrite_last_line(NEWS_FILE, entry)
+    else:
+        append_line(NEWS_FILE, entry)
 
 
 def main():
@@ -115,9 +193,31 @@ def main():
 
     today = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
 
+    price_events = []
+    priority_new_removed = []
+    openrouter_new_removed = []
+
     for provider, models in snapshot.items():
-        changed = update_provider(provider, models, today)
+        changed, events = update_provider(provider, models, today)
         print(f"{provider}: {changed} price change(s) recorded for {today}")
+        for e in events:
+            if e["type"] in ("price_up", "price_down"):
+                price_events.append(e)
+            elif provider == "openrouter":
+                openrouter_new_removed.append(e)
+            else:
+                priority_new_removed.append(e)
+
+    price_events.sort(key=lambda e: abs(e["pct"]) if e["pct"] is not None else 0, reverse=True)
+    priority_new_removed.sort(key=lambda e: (e["type"], e["provider"], e["model"]))
+    openrouter_new_removed.sort(key=lambda e: (e["type"], e["model"]))
+
+    all_events = price_events + priority_new_removed + openrouter_new_removed
+    if all_events:
+        write_news(today, all_events)
+        print(f"news: {len(all_events)} event(s) recorded for {today}")
+    else:
+        print("news: no changes to report")
 
 
 if __name__ == "__main__":

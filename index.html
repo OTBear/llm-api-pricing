@@ -19,6 +19,15 @@
 </header>
 
 <main class="sheet">
+  <section class="news" id="newsSection" hidden>
+    <div class="news__head">
+      <h2>Latest changes <span class="news__date" id="newsDate"></span></h2>
+      <button type="button" class="news__toggle" id="newsToggle" hidden></button>
+    </div>
+    <ul class="news__list" id="newsList"></ul>
+    <p class="news__archive"><a href="news.html">Full change history &rarr;</a></p>
+  </section>
+
   <div class="controls">
     <label class="select-wrap">
       <span>Provider</span>
@@ -56,6 +65,7 @@
      See <a href="README.md">README</a> for scope details.</p>
 </footer>
 
+<script src="assets/common.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

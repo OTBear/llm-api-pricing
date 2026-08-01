@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Price change history — LLM API Pricing</title>
+<meta name="description" content="Daily log of LLM API price increases, decreases, new models and retired models across OpenAI, Google Gemini, Anthropic Claude and OpenRouter.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <p class="back-link"><a href="index.html">&larr; All models</a></p>
+  <h1>Price change history</h1>
+  <p class="lede">
+    Every day a price moved, a model appeared, or a model disappeared, across
+    OpenAI, Google Gemini, Anthropic Claude and OpenRouter. OpenRouter's
+    catalog changes constantly, so its new/removed models are listed last in
+    each day rather than crowding out the rarer, more meaningful changes.
+  </p>
+</header>
+
+<main class="sheet">
+  <div id="newsArchive">
+    <p class="empty">Loading change history&hellip;</p>
+  </div>
+</main>
+
+<footer class="foot">
+  <p>Full log: <a href="news/log.jsonl">news/log.jsonl</a>. See <a href="README.md">README</a> for the schema.</p>
+</footer>
+
+<script src="assets/common.js"></script>
+<script src="assets/news.js"></script>
+</body>
+</html>
