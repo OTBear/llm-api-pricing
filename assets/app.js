@@ -29,6 +29,10 @@
     return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
   }
 
+  function modelHref(provider, model) {
+    return "model.html?provider=" + encodeURIComponent(provider) + "&model=" + encodeURIComponent(model);
+  }
+
   function copyText(text) {
     if (navigator.clipboard && window.isSecureContext) {
       return navigator.clipboard.writeText(text);
@@ -144,7 +148,8 @@
         var tr = document.createElement("tr");
         tr.innerHTML =
           "<td>" + r.provider + "</td>" +
-          '<td><span class="model-cell">' + r.model +
+          '<td><span class="model-cell"><a class="model-link" href="' + escapeAttr(modelHref(r.provider, r.model)) +
+            '">' + r.model + "</a>" +
             '<button type="button" class="copy-btn" data-model="' + escapeAttr(r.model) +
             '" aria-label="Copy model ID to clipboard">copy</button></span></td>' +
           '<td class="col-num">' + fmt(r.input) + "</td>" +

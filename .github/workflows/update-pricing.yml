@@ -21,10 +21,13 @@ jobs:
       - name: Run pricing scraper
         run: python pricing_scraper.py
 
+      - name: Update price history
+        run: python update_history.py
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add llm_pricing.json google.json openai.json anthropic.json openrouter.json
+          git add llm_pricing.json google.json openai.json anthropic.json openrouter.json history
           git diff --cached --quiet || git commit -m "Update LLM pricing data"
           git push

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Model price history — LLM API Pricing</title>
+<meta name="description" content="Price change history for an LLM API model, charted over time.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="page-header">
+  <p class="back-link"><a href="index.html">&larr; All models</a></p>
+  <h1 id="modelTitle">Loading&hellip;</h1>
+  <p class="lede" id="modelSub"></p>
+</header>
+
+<main class="sheet">
+  <div class="chart-wrap">
+    <canvas id="priceChart" height="260" role="img" aria-label="Input and output price over time"></canvas>
+  </div>
+
+  <div class="table-wrap">
+    <table class="rates" id="historyTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th class="col-num">Input $/1M</th>
+          <th class="col-num">Output $/1M</th>
+        </tr>
+      </thead>
+      <tbody id="historyBody">
+        <tr><td colspan="3" class="empty">Loading history&hellip;</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer class="foot">
+  <p>Full snapshot: <a href="llm_pricing.json">llm_pricing.json</a>. See <a href="README.md">README</a> for scope details.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="assets/model.js"></script>
+</body>
+</html>

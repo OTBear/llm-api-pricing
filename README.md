@@ -52,6 +52,15 @@ print(pricing["anthropic"]["claude-sonnet-5"])
 # {'input': 2.0, 'output': 10.0}
 ```
 
+## Price history
+
+`history/<provider>/` holds a changelog per model, updated daily by [`update_history.py`](update_history.py):
+
+- `history/<provider>/index.json` maps each model ID to its on-disk file, e.g. `{ "gpt-5": "gpt-5.jsonl" }`. Needed because some IDs (mostly on OpenRouter, e.g. `anthropic/claude-fable-5:batch`) contain characters that aren't safe as filenames.
+- `history/<provider>/<model>.jsonl` is [JSON Lines](https://jsonlines.org/): one `{"date": "2026-08-01", "input": 1.25, "output": 10.0}` object per line. A new line is only added when the price actually changes, so this is a changelog of price *changes*, not a daily snapshot — treat gaps between dates as "price unchanged."
+
+On the [live table](https://otbear.github.io/llm-api-pricing/), click any model to see its price history charted on `model.html?provider=<provider>&model=<model>`.
+
 ## Sources
 
 - Google Gemini: [ai.google.dev/gemini-api/docs/pricing](https://ai.google.dev/gemini-api/docs/pricing)
@@ -70,6 +79,7 @@ print(pricing["anthropic"]["claude-sonnet-5"])
 
 ```
 python pricing_scraper.py
+python update_history.py
 ```
 
 Requires Python 3 with no external dependencies (standard library only).
