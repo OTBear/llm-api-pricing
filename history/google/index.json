@@ -25,5 +25,7 @@
   "gemini-3.6-flash": "gemini-3.6-flash.jsonl",
   "gemini-embedding-001": "gemini-embedding-001.jsonl",
   "gemini-omni-flash-preview": "gemini-omni-flash-preview.jsonl",
-  "gemini-robotics-er-1.6-preview": "gemini-robotics-er-1.6-preview.jsonl"
+  "gemini-robotics-er-1.6-preview": "gemini-robotics-er-1.6-preview.jsonl",
+  "gemini-robotics-er-2-preview": "gemini-robotics-er-2-preview.jsonl",
+  "gemini-robotics-er-2-streaming-preview": "gemini-robotics-er-2-streaming-preview.jsonl"
 }
