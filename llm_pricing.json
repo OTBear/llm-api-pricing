@@ -583,8 +583,8 @@
       "output": 0.28
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "input": 0.14,
-      "output": 0.28
+      "input": 0.09,
+      "output": 0.18
     },
     "deepseek/deepseek-v4-pro": {
       "input": 0.435,
@@ -991,8 +991,8 @@
       "output": 0.0
     },
     "nvidia/nemotron-3-ultra-550b-a55b": {
-      "input": 0.5,
-      "output": 2.2
+      "input": 0.6,
+      "output": 3.6
     },
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
       "input": 0.0,
@@ -1663,8 +1663,8 @@
       "output": 3.036
     },
     "z-ai/glm-5.2": {
-      "input": 0.76006,
-      "output": 2.38876
+      "input": 0.343,
+      "output": 1.078
     },
     "z-ai/glm-5v-turbo": {
       "input": 1.2,
@@ -1685,6 +1685,10 @@
     "~anthropic/claude-sonnet-latest": {
       "input": 2.0,
       "output": 10.0
+    },
+    "~deepseek/deepseek-v4-flash-latest": {
+      "input": 0.09,
+      "output": 0.18
     },
     "~google/gemini-flash-latest": {
       "input": 1.5,

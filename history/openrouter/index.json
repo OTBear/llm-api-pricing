@@ -362,6 +362,7 @@
   "~anthropic/claude-haiku-latest": "anthropic/claude-haiku-latest.jsonl",
   "~anthropic/claude-opus-latest": "anthropic/claude-opus-latest.jsonl",
   "~anthropic/claude-sonnet-latest": "anthropic/claude-sonnet-latest.jsonl",
+  "~deepseek/deepseek-v4-flash-latest": "deepseek/deepseek-v4-flash-latest.jsonl",
   "~google/gemini-flash-latest": "google/gemini-flash-latest.jsonl",
   "~google/gemini-pro-latest": "google/gemini-pro-latest.jsonl",
   "~moonshotai/kimi-latest": "moonshotai/kimi-latest.jsonl",
