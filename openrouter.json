@@ -984,8 +984,8 @@
     "output": 1.82
   },
   "qwen/qwen3-235b-a22b-2507": {
-    "input": 0.09,
-    "output": 0.55
+    "input": 0.1495,
+    "output": 0.598
   },
   "qwen/qwen3-235b-a22b-thinking-2507": {
     "input": 0.23,
@@ -1052,8 +1052,8 @@
     "output": 1.9
   },
   "qwen/qwen3-vl-235b-a22b-thinking": {
-    "input": 0.4,
-    "output": 4.0
+    "input": 0.98,
+    "output": 3.95
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
     "input": 0.13,
@@ -1076,8 +1076,8 @@
     "output": 2.1
   },
   "qwen/qwen3.5-122b-a10b": {
-    "input": 0.26,
-    "output": 2.08
+    "input": 0.4,
+    "output": 3.2
   },
   "qwen/qwen3.5-27b": {
     "input": 0.195,
@@ -1296,8 +1296,8 @@
     "output": 3.036
   },
   "z-ai/glm-5.2": {
-    "input": 0.343,
-    "output": 1.078
+    "input": 1.19,
+    "output": 3.74
   },
   "z-ai/glm-5v-turbo": {
     "input": 1.2,
