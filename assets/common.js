@@ -24,6 +24,15 @@
     return "model.html?provider=" + encodeURIComponent(provider) + "&model=" + encodeURIComponent(model);
   }
 
+  // Provider's own documentation page for a specific model, keyed by model id.
+  // Anthropic has no per-model docs page, so it returns null.
+  function providerDocHref(provider, model) {
+    if (provider === "openrouter") return "https://openrouter.ai/" + model;
+    if (provider === "openai") return "https://developers.openai.com/api/docs/models/" + model;
+    if (provider === "google") return "https://ai.google.dev/gemini-api/docs/models/" + model;
+    return null;
+  }
+
   function modelLink(provider, model) {
     return (
       '<a class="model-link" href="' + escapeAttr(modelHref(provider, model)) + '">' +
@@ -78,6 +87,7 @@
     escapeHtml: escapeHtml,
     modelHref: modelHref,
     modelLink: modelLink,
+    providerDocHref: providerDocHref,
     renderNewsEvent: renderNewsEvent,
   };
 })();

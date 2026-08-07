@@ -11,6 +11,7 @@
   var els = {
     title: document.getElementById("modelTitle"),
     sub: document.getElementById("modelSub"),
+    docLink: document.getElementById("modelDocLink"),
     body: document.getElementById("historyBody"),
     canvas: document.getElementById("priceChart"),
   };
@@ -101,6 +102,12 @@
   document.title = modelId + " pricing history — LLM API Pricing";
   els.title.textContent = modelId;
   els.sub.textContent = "Provider: " + provider;
+
+  var docHref = window.LLMP.providerDocHref(provider, modelId);
+  if (docHref) {
+    els.docLink.href = docHref;
+    els.docLink.hidden = false;
+  }
 
   fetch("history/" + encodeURIComponent(provider) + "/index.json")
     .then(function (res) {

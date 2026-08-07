@@ -192,6 +192,33 @@ table.rates {
 .copy-btn:hover { background: var(--teal); color: #fff; border-color: var(--teal); }
 .copy-btn.copied { opacity: 1; background: var(--teal-dark); color: #fff; border-color: var(--teal-dark); }
 
+.docs-link {
+  font-family: var(--font);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--teal-dark);
+  background: var(--teal-light);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.rates tbody tr:hover .docs-link,
+.docs-link:focus-visible {
+  opacity: 1;
+}
+
+.docs-link:hover { background: var(--teal); color: #fff; border-color: var(--teal); }
+
+#modelDocLink {
+  opacity: 1;
+  display: inline-block;
+  font-size: 0.85rem;
+}
+
 .news {
   background: var(--surface);
   border: 1px solid var(--border);

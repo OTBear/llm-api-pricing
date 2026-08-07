@@ -8,6 +8,7 @@
   var fmt = window.LLMP.fmt;
   var escapeAttr = window.LLMP.escapeAttr;
   var modelHref = window.LLMP.modelHref;
+  var providerDocHref = window.LLMP.providerDocHref;
 
   var state = {
     data: {},
@@ -142,12 +143,17 @@
       var frag = document.createDocumentFragment();
       filtered.forEach(function (r) {
         var tr = document.createElement("tr");
+        var docHref = providerDocHref(r.provider, r.model);
+        var docLink = docHref
+          ? '<a class="docs-link" href="' + escapeAttr(docHref) + '" target="_blank" rel="noopener" aria-label="Open provider docs for this model">docs</a>'
+          : "";
         tr.innerHTML =
           "<td>" + r.provider + "</td>" +
           '<td><span class="model-cell"><a class="model-link" href="' + escapeAttr(modelHref(r.provider, r.model)) +
             '">' + r.model + "</a>" +
             '<button type="button" class="copy-btn" data-model="' + escapeAttr(r.model) +
-            '" aria-label="Copy model ID to clipboard">copy</button></span></td>' +
+            '" aria-label="Copy model ID to clipboard">copy</button>' +
+            docLink + "</span></td>" +
           '<td class="col-num">' + fmt(r.input) + "</td>" +
           '<td class="col-num">' + fmt(r.output) + "</td>";
         frag.appendChild(tr);
