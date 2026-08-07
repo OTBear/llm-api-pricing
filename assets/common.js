@@ -47,18 +47,31 @@
     return " (" + sign + pct + "%)";
   }
 
+  function fieldDetail(label, change) {
+    if (!change) return "";
+    var fieldCls = change.new > change.old ? "field-up" : "field-down";
+    return (
+      ' <span class="news-detail ' + fieldCls + '">' + label + ": $" + fmt(change.old) + " → $" + fmt(change.new) +
+      pctLabel(change.pct) + "</span>"
+    );
+  }
+
   function renderNewsEvent(e) {
     var tag = '<span class="tag">' + escapeHtml(e.provider) + "</span>";
 
-    if (e.type === "price_up" || e.type === "price_down") {
-      var cls = e.type === "price_up" ? "news-up" : "news-down";
-      var arrow = e.type === "price_up" ? "▲" : "▼";
+    if (e.type === "price_change") {
+      var changes = [e.input, e.output].filter(Boolean);
+      var lead = changes.reduce(function (a, b) {
+        return Math.abs(b.pct || 0) > Math.abs(a.pct || 0) ? b : a;
+      });
+      var cls = lead.new > lead.old ? "news-up" : "news-down";
+      var arrow = lead.new > lead.old ? "▲" : "▼";
       return (
         '<li class="news-item ' + cls + '">' +
         '<span class="news-arrow">' + arrow + "</span> " +
         tag + " " + modelLink(e.provider, e.model) +
-        ' <span class="news-detail">' + escapeHtml(e.field) + ": $" + fmt(e.old) + " → $" + fmt(e.new) +
-        pctLabel(e.pct) + "</span></li>"
+        fieldDetail("in", e.input) + fieldDetail("out", e.output) +
+        "</li>"
       );
     }
 

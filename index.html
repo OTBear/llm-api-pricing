@@ -18,7 +18,7 @@
   </p>
 </header>
 
-<main class="sheet">
+<main class="sheet sheet--wide">
   <section class="news" id="newsSection" hidden>
     <div class="news__head">
       <h2>Latest changes <span class="news__date" id="newsDate"></span></h2>
@@ -39,7 +39,12 @@
     <p class="count" id="rowCount" aria-live="polite"></p>
   </div>
 
-  <div class="table-wrap">
+  <div class="tabs" role="tablist">
+    <button type="button" class="tab-btn active" data-tab="table" role="tab" aria-selected="true">Table</button>
+    <button type="button" class="tab-btn" data-tab="chart" role="tab" aria-selected="false">Chart</button>
+  </div>
+
+  <div class="table-wrap" id="tablePanel">
     <table class="rates" id="ratesTable">
       <thead>
         <tr>
@@ -47,12 +52,37 @@
           <th data-key="model" tabindex="0" role="button" aria-sort="none">Model</th>
           <th data-key="input" tabindex="0" role="button" aria-sort="none" class="col-num">Input $/1M</th>
           <th data-key="output" tabindex="0" role="button" aria-sort="descending" class="col-num">Output $/1M</th>
+          <th data-key="params_b" tabindex="0" role="button" aria-sort="none" class="col-num">Params (B)</th>
+          <th data-key="intelligence_index" tabindex="0" role="button" aria-sort="none" class="col-num">Intelligence</th>
         </tr>
       </thead>
       <tbody id="ratesBody">
-        <tr><td colspan="4" class="empty">Loading pricing…</td></tr>
+        <tr><td colspan="6" class="empty">Loading pricing…</td></tr>
       </tbody>
     </table>
+  </div>
+
+  <div class="chart-panel" id="chartPanel" hidden>
+    <div class="chart-controls">
+      <label class="select-wrap">
+        <span>X axis</span>
+        <select id="xAxisSelect"></select>
+      </label>
+      <label class="select-wrap">
+        <span>Y axis</span>
+        <select id="yAxisSelect"></select>
+      </label>
+      <label class="select-wrap">
+        <span>Search</span>
+        <input type="search" id="chartSearch" placeholder="model name…" autocomplete="off">
+      </label>
+      <button type="button" class="secondary-btn" id="chartResetZoomBtn">Reset zoom</button>
+      <p class="count" id="chartCount" aria-live="polite"></p>
+    </div>
+    <div class="chart-wrap">
+      <canvas id="scatterChart" height="420" role="img" aria-label="Scatter plot of selected model metrics"></canvas>
+      <p class="chart-hint">Scroll/pinch to zoom, drag to pan.</p>
+    </div>
   </div>
 </main>
 
@@ -65,6 +95,8 @@
      See <a href="README.md">README</a> for scope details.</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2"></script>
 <script src="assets/common.js"></script>
 <script src="assets/app.js"></script>
 </body>
