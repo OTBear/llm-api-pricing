@@ -90,22 +90,24 @@ def pct_change(old, new):
     return round((new - old) / old * 100, 1)
 
 
-def price_change_events(provider, model_id, last, entry):
-    events = []
+def price_change_event(provider, model_id, last, entry):
+    """One event per model per day: input and/or output change, whichever applies."""
+    event = {"type": "price_change", "provider": provider, "model": model_id, "input": None, "output": None}
     for field in ("input", "output"):
         old, new = last[field], entry[field]
         if old == new:
             continue
-        events.append({
-            "type": "price_up" if new > old else "price_down",
-            "provider": provider,
-            "model": model_id,
-            "field": field,
-            "old": old,
-            "new": new,
-            "pct": pct_change(old, new),
-        })
-    return events
+        event[field] = {"old": old, "new": new, "pct": pct_change(old, new)}
+    return event
+
+
+def event_pct_priority(event):
+    pcts = [
+        abs(event[field]["pct"])
+        for field in ("input", "output")
+        if event.get(field) and event[field]["pct"] is not None
+    ]
+    return max(pcts) if pcts else 0
 
 
 def update_provider(provider, models, today):
@@ -153,11 +155,11 @@ def update_provider(provider, models, today):
         elif last["date"] == today:
             if price_differs(last, entry):
                 rewrite_last_line(full_path, entry)
-                events.extend(price_change_events(provider, model_id, last, entry))
+                events.append(price_change_event(provider, model_id, last, entry))
                 changed += 1
         elif price_differs(last, entry):
             append_line(full_path, entry)
-            events.extend(price_change_events(provider, model_id, last, entry))
+            events.append(price_change_event(provider, model_id, last, entry))
             changed += 1
 
     for model_id in sorted(previous_active - current_active):
@@ -201,14 +203,14 @@ def main():
         changed, events = update_provider(provider, models, today)
         print(f"{provider}: {changed} price change(s) recorded for {today}")
         for e in events:
-            if e["type"] in ("price_up", "price_down"):
+            if e["type"] == "price_change":
                 price_events.append(e)
             elif provider == "openrouter":
                 openrouter_new_removed.append(e)
             else:
                 priority_new_removed.append(e)
 
-    price_events.sort(key=lambda e: abs(e["pct"]) if e["pct"] is not None else 0, reverse=True)
+    price_events.sort(key=event_pct_priority, reverse=True)
     priority_new_removed.sort(key=lambda e: (e["type"], e["provider"], e["model"]))
     openrouter_new_removed.sort(key=lambda e: (e["type"], e["model"]))
 

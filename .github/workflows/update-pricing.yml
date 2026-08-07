@@ -2,7 +2,7 @@ name: Update LLM pricing
 
 on:
   schedule:
-    - cron: "17 4 * * *" # daily at 04:17 UTC
+    - cron: "0 6 * * *" # daily at 06:00 UTC (~8:00 Warsaw time; CET in winter shifts this to ~7:00)
   workflow_dispatch: {}
 
 permissions:
@@ -24,11 +24,14 @@ jobs:
       - name: Update price history
         run: python update_history.py
 
+      - name: Fetch model metadata (params, intelligence index)
+        run: python fetch_model_metadata.py
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add llm_pricing.json google.json openai.json anthropic.json openrouter.json history
+          git add llm_pricing.json google.json openai.json anthropic.json openrouter.json history model_metadata.json
           if [ -d news ]; then git add news; fi
           git diff --cached --quiet || git commit -m "Update LLM pricing data"
           git push

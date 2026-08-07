@@ -33,6 +33,7 @@ All prices are **USD per 1,000,000 tokens**, at each provider's standard (non-ba
 | [`openai.json`](openai.json) | OpenAI models only |
 | [`anthropic.json`](anthropic.json) | Anthropic (Claude) models only |
 | [`openrouter.json`](openrouter.json) | Models available through OpenRouter, keyed by their `provider/model` slug |
+| [`model_metadata.json`](model_metadata.json) | Parameter count and intelligence index per model, see [Model metadata](#model-metadata) below |
 
 Use the raw file URLs to pull data directly into a script, e.g.:
 
@@ -62,19 +63,29 @@ print(pricing["anthropic"]["claude-sonnet-5"])
 
 On the [live table](https://otbear.github.io/llm-api-pricing/), click any model to see its price history charted on `model.html?provider=<provider>&model=<model>`.
 
+## Model metadata
+
+[`model_metadata.json`](model_metadata.json) is a `{ "provider": { "model": { "params_b", "intelligence_index", "updated" } } }` cache, written by [`fetch_model_metadata.py`](fetch_model_metadata.py):
+
+- `params_b` — parameter count in billions, sourced from Hugging Face (`safetensors.total` on the model matched via OpenRouter's catalog `hf_slug`). `null` for closed-weight models (GPT, Claude, Gemini) or when no match was found.
+- `intelligence_index` — Artificial Analysis intelligence index score, sourced from OpenRouter's public rankings API. Available for closed models too, since Artificial Analysis benchmarks those as well.
+- `updated` — the date this entry was first looked up.
+
+Unlike the pricing/history scripts, this one is **incremental by design**: it only looks up models that don't already have a cache entry (a `null` result still counts as "looked up, nothing found" — not something to retry). Re-running it after nothing new has appeared makes zero network requests. Both source APIs (OpenRouter's catalog/rankings endpoints and Hugging Face's model API) are public and need no authentication.
+
 ## News feed
 
 [`news/log.jsonl`](news/log.jsonl) is a daily digest of what changed, also written by `update_history.py`: one line per day that had at least one change, e.g.
 
 ```json
 {"date": "2026-08-02", "events": [
-  {"type": "price_up", "provider": "openai", "model": "gpt-5", "field": "output", "old": 10.0, "new": 12.0, "pct": 20.0},
+  {"type": "price_change", "provider": "openai", "model": "gpt-5", "input": null, "output": {"old": 10.0, "new": 12.0, "pct": 20.0}},
   {"type": "new", "provider": "google", "model": "gemini-4-flash", "input": 0.5, "output": 2.0},
   {"type": "removed", "provider": "anthropic", "model": "claude-opus-4-1", "last_input": 15.0, "last_output": 75.0}
 ]}
 ```
 
-`type` is `price_up`, `price_down`, `new`, or `removed`. Within a day, events are ordered price changes first (biggest `%` move first), then new/removed models for Google, OpenAI and Anthropic, then new/removed models for OpenRouter last — its catalog changes constantly, so its arrivals/departures are the least newsworthy part of the feed. The [live table](https://otbear.github.io/llm-api-pricing/) shows the latest day's changes at the top (collapsed, with a "show all" toggle); the full log is browsable on `news.html`.
+`type` is `price_change`, `new`, or `removed`. A `price_change` event carries one entry per changed field (`input`, `output`, or both) — a same-day move on both is a single event, not two. Within a day, events are ordered price changes first (biggest `%` move first, across whichever field moved most), then new/removed models for Google, OpenAI and Anthropic, then new/removed models for OpenRouter last — its catalog changes constantly, so its arrivals/departures are the least newsworthy part of the feed. The [live table](https://otbear.github.io/llm-api-pricing/) shows the latest day's changes at the top (collapsed, with a "show all" toggle); the full log is browsable on `news.html`.
 
 ## Sources
 
@@ -95,6 +106,7 @@ On the [live table](https://otbear.github.io/llm-api-pricing/), click any model 
 ```
 python pricing_scraper.py
 python update_history.py
+python fetch_model_metadata.py
 ```
 
 Requires Python 3 with no external dependencies (standard library only).

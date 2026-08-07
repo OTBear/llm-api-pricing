@@ -12,6 +12,7 @@
     title: document.getElementById("modelTitle"),
     sub: document.getElementById("modelSub"),
     docLink: document.getElementById("modelDocLink"),
+    meta: document.getElementById("modelMeta"),
     body: document.getElementById("historyBody"),
     canvas: document.getElementById("priceChart"),
   };
@@ -108,6 +109,29 @@
     els.docLink.href = docHref;
     els.docLink.hidden = false;
   }
+
+  function fmtParams(n) {
+    if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, "") + "T";
+    return n + "B";
+  }
+
+  fetch("model_metadata.json")
+    .then(function (res) { return res.ok ? res.json() : {}; })
+    .then(function (metadata) {
+      var meta = ((metadata[provider] || {})[modelId]) || {};
+      var parts = [];
+      if (meta.params_b !== null && meta.params_b !== undefined) {
+        parts.push("Params: " + fmtParams(meta.params_b));
+      }
+      if (meta.intelligence_index !== null && meta.intelligence_index !== undefined) {
+        parts.push("Intelligence Index: " + meta.intelligence_index);
+      }
+      if (parts.length) {
+        els.meta.textContent = parts.join(" · ");
+        els.meta.hidden = false;
+      }
+    })
+    .catch(function () { /* metadata is a bonus - fail quietly */ });
 
   fetch("history/" + encodeURIComponent(provider) + "/index.json")
     .then(function (res) {
