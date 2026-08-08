@@ -526,10 +526,20 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-fable-5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "anthropic/claude-haiku-4.5": {
       "intelligence_index": 29.9,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "anthropic/claude-haiku-4.5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "anthropic/claude-opus-4": {
       "intelligence_index": null,
@@ -541,15 +551,30 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-opus-4.1:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "anthropic/claude-opus-4.5": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-opus-4.5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "anthropic/claude-opus-4.6": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "anthropic/claude-opus-4.6:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "anthropic/claude-opus-4.7": {
       "intelligence_index": 55,
@@ -561,6 +586,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-opus-4.7:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "anthropic/claude-opus-4.8": {
       "intelligence_index": 57.3,
       "params_b": null,
@@ -570,6 +600,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "anthropic/claude-opus-4.8:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "anthropic/claude-opus-5": {
       "intelligence_index": 63.1,
@@ -581,6 +616,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-opus-5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "anthropic/claude-sonnet-4": {
       "intelligence_index": 29.8,
       "params_b": null,
@@ -591,15 +631,30 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-sonnet-4.5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "anthropic/claude-sonnet-4.6": {
       "intelligence_index": 48.4,
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-sonnet-4.6:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "anthropic/claude-sonnet-5": {
       "intelligence_index": 55.3,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "anthropic/claude-sonnet-5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "arcee-ai/trinity-large-thinking": {
       "intelligence_index": null,
@@ -751,6 +806,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "google/gemini-2.5-flash-lite:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "google/gemini-2.5-flash:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "google/gemini-2.5-pro": {
       "intelligence_index": 25.9,
       "params_b": null,
@@ -766,10 +831,20 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "google/gemini-2.5-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "google/gemini-3-flash-preview": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "google/gemini-3-flash-preview:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "google/gemini-3-pro-image": {
       "intelligence_index": null,
@@ -806,6 +881,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "google/gemini-3.1-flash-lite:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "google/gemini-3.1-pro-preview": {
       "intelligence_index": 47.7,
       "params_b": null,
@@ -815,6 +895,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "google/gemini-3.1-pro-preview:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "google/gemini-3.5-flash": {
       "intelligence_index": 52,
@@ -826,10 +911,25 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "google/gemini-3.5-flash-lite:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "google/gemini-3.5-flash:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "google/gemini-3.6-flash": {
       "intelligence_index": 51.6,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "google/gemini-3.6-flash:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "google/gemma-2-27b-it": {
       "intelligence_index": null,
@@ -916,10 +1016,20 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "inclusionai/ling-3.0-flash": {
+      "intelligence_index": 37.8,
+      "params_b": 127.5,
+      "updated": "2026-08-08"
+    },
     "inclusionai/ling-3.0-flash:free": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "inclusionai/ling-3.0-tiny:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "inclusionai/ring-2.6-1t": {
       "intelligence_index": null,
@@ -996,6 +1106,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "meta/muse-spark-1.2": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "microsoft/phi-4": {
       "intelligence_index": null,
       "params_b": 14.7,
@@ -1045,6 +1160,11 @@
       "intelligence_index": 45.4,
       "params_b": 427.0,
       "updated": "2026-08-07"
+    },
+    "minimax/minimax-m3:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "mistralai/codestral-2508": {
       "intelligence_index": null,
@@ -1166,6 +1286,11 @@
       "params_b": 1026.9,
       "updated": "2026-08-07"
     },
+    "moonshotai/kimi-k2.7-code:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "moonshotai/kimi-k3": {
       "intelligence_index": 59.7,
       "params_b": 2779.9,
@@ -1241,6 +1366,11 @@
       "params_b": 560.5,
       "updated": "2026-08-07"
     },
+    "nvidia/nemotron-3-ultra-550b-a55b:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -1281,6 +1411,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-3.5-turbo:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-4": {
       "intelligence_index": null,
       "params_b": null,
@@ -1296,6 +1431,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-4-turbo:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-4.1": {
       "intelligence_index": null,
       "params_b": null,
@@ -1306,10 +1446,25 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-4.1-mini:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-4.1-nano": {
       "intelligence_index": 9.6,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-4.1-nano:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-4.1:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/gpt-4o": {
       "intelligence_index": null,
@@ -1341,10 +1496,25 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-4o-mini:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-4o:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5": {
       "intelligence_index": 35.3,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-5-codex:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/gpt-5-image": {
       "intelligence_index": null,
@@ -1361,15 +1531,30 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-5-mini:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5-nano": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-5-nano:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5-pro": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-5-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/gpt-5.1": {
       "intelligence_index": 37.5,
@@ -1391,6 +1576,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-5.1:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5.2": {
       "intelligence_index": null,
       "params_b": null,
@@ -1410,6 +1600,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-5.2-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-5.2:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/gpt-5.3-chat": {
       "intelligence_index": null,
@@ -1436,15 +1636,35 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-5.4-mini:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5.4-nano": {
       "intelligence_index": 39.7,
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-5.4-nano:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5.4-pro": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-5.4-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-5.4:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/gpt-5.5": {
       "intelligence_index": 56.3,
@@ -1456,6 +1676,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-5.5-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-5.5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5.6-luna": {
       "intelligence_index": 52.3,
       "params_b": null,
@@ -1465,6 +1695,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-5.6-luna-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-5.6-luna:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/gpt-5.6-sol": {
       "intelligence_index": 60.9,
@@ -1476,6 +1716,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/gpt-5.6-sol-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-5.6-sol:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/gpt-5.6-terra": {
       "intelligence_index": 56.6,
       "params_b": null,
@@ -1485,6 +1735,21 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-5.6-terra-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-5.6-terra:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/gpt-5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/gpt-audio": {
       "intelligence_index": null,
@@ -1531,6 +1796,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/o1-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/o1:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/o3": {
       "intelligence_index": null,
       "params_b": null,
@@ -1546,10 +1821,30 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openai/o3-mini-high:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/o3-mini:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "openai/o3-pro": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/o3-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/o3:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openai/o4-mini": {
       "intelligence_index": null,
@@ -1560,6 +1855,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "openai/o4-mini-high:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
+    "openai/o4-mini:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "openrouter/auto": {
       "intelligence_index": null,
@@ -1881,6 +2186,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "qwen/qwen3.8-max": {
+      "intelligence_index": 58.1,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "rekaai/reka-edge": {
       "intelligence_index": null,
       "params_b": 7.1,
@@ -1975,6 +2285,11 @@
       "intelligence_index": 41.2,
       "params_b": 266.0,
       "updated": "2026-08-07"
+    },
+    "thinkingmachines/inkling:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "undi95/remm-slerp-l2-13b": {
       "intelligence_index": null,
@@ -2081,6 +2396,11 @@
       "params_b": 753.3,
       "updated": "2026-08-07"
     },
+    "z-ai/glm-5.2:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
+    },
     "z-ai/glm-5v-turbo": {
       "intelligence_index": null,
       "params_b": null,
@@ -2105,6 +2425,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "~deepseek/deepseek-v4-flash-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-08"
     },
     "~google/gemini-flash-latest": {
       "intelligence_index": null,

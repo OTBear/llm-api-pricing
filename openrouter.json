@@ -248,16 +248,16 @@
     "output": 1.0
   },
   "deepseek/deepseek-v3.2": {
-    "input": 0.269,
-    "output": 0.4
+    "input": 0.26,
+    "output": 0.38
   },
   "deepseek/deepseek-v3.2-exp": {
     "input": 0.27,
     "output": 0.41
   },
   "deepseek/deepseek-v4-flash": {
-    "input": 0.0882,
-    "output": 0.1764
+    "input": 0.14,
+    "output": 0.28
   },
   "deepseek/deepseek-v4-flash-0731": {
     "input": 0.09,
@@ -652,8 +652,8 @@
     "output": 2.85
   },
   "moonshotai/kimi-k2.6": {
-    "input": 0.589,
-    "output": 2.48
+    "input": 0.5795,
+    "output": 2.44
   },
   "moonshotai/kimi-k2.7-code": {
     "input": 0.7,
@@ -712,8 +712,8 @@
     "output": 0.0
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "input": 0.3,
-    "output": 0.9
+    "input": 0.085,
+    "output": 0.4
   },
   "nvidia/nemotron-3-super-120b-a12b:free": {
     "input": 0.0,
@@ -1452,11 +1452,11 @@
     "output": 0.4
   },
   "thinkingmachines/inkling": {
-    "input": 1.0,
+    "input": 0.95,
     "output": 4.05
   },
   "thinkingmachines/inkling-small": {
-    "input": 0.5,
+    "input": 0.45,
     "output": 1.2
   },
   "thinkingmachines/inkling:batch": {
@@ -1544,8 +1544,8 @@
     "output": 2.992
   },
   "z-ai/glm-5.2": {
-    "input": 0.6902,
-    "output": 2.1692
+    "input": 0.3024,
+    "output": 0.9504
   },
   "z-ai/glm-5.2:batch": {
     "input": 0.7,
