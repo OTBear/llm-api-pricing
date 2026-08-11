@@ -52,6 +52,7 @@
   "gpt-5.5": "gpt-5.5.jsonl",
   "gpt-5.5-cyber": "gpt-5.5-cyber.jsonl",
   "gpt-5.5-pro": "gpt-5.5-pro.jsonl",
+  "gpt-5.6-cyber": "gpt-5.6-cyber.jsonl",
   "gpt-5.6-luna": "gpt-5.6-luna.jsonl",
   "gpt-5.6-sol": "gpt-5.6-sol.jsonl",
   "gpt-5.6-terra": "gpt-5.6-terra.jsonl",
