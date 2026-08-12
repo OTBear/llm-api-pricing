@@ -268,17 +268,9 @@
       "input": 3.5,
       "output": 28.0
     },
-    "gpt-5.2-chat-latest": {
-      "input": 1.75,
-      "output": 14.0
-    },
     "gpt-5.2-pro": {
       "input": 10.5,
       "output": 84.0
-    },
-    "gpt-5.3-chat-latest": {
-      "input": 1.75,
-      "output": 14.0
     },
     "gpt-5.3-codex": {
       "input": 1.75,
@@ -550,6 +542,10 @@
       "input": 0.075,
       "output": 0.3
     },
+    "bytedance-seed/seed-2.0-code": {
+      "input": 0.5,
+      "output": 3.0
+    },
     "bytedance-seed/seed-2.0-lite": {
       "input": 0.25,
       "output": 2.0
@@ -616,7 +612,7 @@
     },
     "deepseek/deepseek-v3.1-terminus": {
       "input": 0.27,
-      "output": 1.0
+      "output": 0.95
     },
     "deepseek/deepseek-v3.2": {
       "input": 0.269,
@@ -841,6 +837,10 @@
     "kwaipilot/kat-coder-pro-v2.5": {
       "input": 0.74,
       "output": 2.96
+    },
+    "liquid/lfm-2.5-2.6b:free": {
+      "input": 0.0,
+      "output": 0.0
     },
     "mancer/weaver": {
       "input": 0.5,
@@ -1107,6 +1107,14 @@
       "output": 0.0
     },
     "nvidia/nemotron-3.5-content-safety:free": {
+      "input": 0.0,
+      "output": 0.0
+    },
+    "nvidia/nemotron-3.5-lightning": {
+      "input": 0.1,
+      "output": 0.25
+    },
+    "nvidia/nemotron-3.5-lightning:free": {
       "input": 0.0,
       "output": 0.0
     },
@@ -1415,7 +1423,7 @@
       "output": 30.0
     },
     "openai/gpt-oss-120b": {
-      "input": 0.037,
+      "input": 0.03,
       "output": 0.17
     },
     "openai/gpt-oss-20b": {
@@ -1659,8 +1667,8 @@
       "output": 1.2
     },
     "qwen/qwen3-vl-235b-a22b-instruct": {
-      "input": 0.21,
-      "output": 1.9
+      "input": 0.26,
+      "output": 1.04
     },
     "qwen/qwen3-vl-235b-a22b-thinking": {
       "input": 0.4,
@@ -1895,8 +1903,8 @@
       "output": 1.8
     },
     "z-ai/glm-4.6": {
-      "input": 0.5,
-      "output": 2.0
+      "input": 0.55,
+      "output": 2.2
     },
     "z-ai/glm-4.6v": {
       "input": 0.3,
@@ -1923,8 +1931,8 @@
       "output": 4.4
     },
     "z-ai/glm-5.2": {
-      "input": 0.76,
-      "output": 2.42
+      "input": 0.5,
+      "output": 3.15
     },
     "z-ai/glm-5.2:batch": {
       "input": 0.7,

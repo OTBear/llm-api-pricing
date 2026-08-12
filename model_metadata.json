@@ -686,6 +686,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "bytedance-seed/seed-2.0-code": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-12"
+    },
     "bytedance-seed/seed-2.0-lite": {
       "intelligence_index": null,
       "params_b": null,
@@ -1056,6 +1061,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "liquid/lfm-2.5-2.6b:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-12"
+    },
     "mancer/weaver": {
       "intelligence_index": null,
       "params_b": null,
@@ -1390,6 +1400,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "nvidia/nemotron-3.5-lightning": {
+      "intelligence_index": 23.6,
+      "params_b": 31.6,
+      "updated": "2026-08-12"
+    },
+    "nvidia/nemotron-3.5-lightning:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-12"
     },
     "nvidia/nemotron-nano-12b-v2-vl:free": {
       "intelligence_index": null,
