@@ -686,6 +686,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "bytedance-seed/seed-2-1-turbo": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-13"
+    },
     "bytedance-seed/seed-2.0-code": {
       "intelligence_index": null,
       "params_b": null,
@@ -800,6 +805,11 @@
       "intelligence_index": 45.3,
       "params_b": 1598.8,
       "updated": "2026-08-07"
+    },
+    "deepseek/deepseek-v4-pro-0813": {
+      "intelligence_index": 45.3,
+      "params_b": null,
+      "updated": "2026-08-13"
     },
     "google/gemini-2.5-flash": {
       "intelligence_index": null,
@@ -2216,6 +2226,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "qwen/qwen3.8-2.4t-a95b": {
+      "intelligence_index": null,
+      "params_b": 2446.2,
+      "updated": "2026-08-13"
+    },
     "qwen/qwen3.8-max": {
       "intelligence_index": 58.1,
       "params_b": null,
@@ -2365,6 +2380,11 @@
       "intelligence_index": 55.8,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "x-ai/grok-4.6": {
+      "intelligence_index": 60.9,
+      "params_b": null,
+      "updated": "2026-08-13"
     },
     "x-ai/grok-build-0.1": {
       "intelligence_index": 40.7,
