@@ -197,6 +197,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "gemini-3.7-flash": {
+      "intelligence_index": 56,
+      "params_b": null,
+      "updated": "2026-08-14"
+    },
     "gemini-embedding-001": {
       "intelligence_index": null,
       "params_b": null,
@@ -950,6 +955,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-08"
+    },
+    "google/gemini-3.7-flash": {
+      "intelligence_index": 56,
+      "params_b": null,
+      "updated": "2026-08-14"
+    },
+    "google/gemini-3.7-flash:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-14"
     },
     "google/gemma-2-27b-it": {
       "intelligence_index": null,

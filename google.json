@@ -92,8 +92,12 @@
     "output": 21.0
   },
   "gemini-3.6-flash": {
-    "input": 1.5,
-    "output": 7.5
+    "input": 0.75,
+    "output": 3.75
+  },
+  "gemini-3.7-flash": {
+    "input": 0.75,
+    "output": 3.75
   },
   "gemini-embedding-001": {
     "input": 0.15,

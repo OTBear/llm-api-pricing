@@ -155,8 +155,12 @@
       "output": 21.0
     },
     "gemini-3.6-flash": {
-      "input": 1.5,
-      "output": 7.5
+      "input": 0.75,
+      "output": 3.75
+    },
+    "gemini-3.7-flash": {
+      "input": 0.75,
+      "output": 3.75
     },
     "gemini-embedding-001": {
       "input": 0.15,
@@ -631,8 +635,8 @@
       "output": 0.28
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "input": 0.08,
-      "output": 0.18
+      "input": 0.14,
+      "output": 0.28
     },
     "deepseek/deepseek-v4-pro": {
       "input": 1.168,
@@ -747,12 +751,20 @@
       "output": 4.5
     },
     "google/gemini-3.6-flash": {
-      "input": 1.5,
-      "output": 7.5
-    },
-    "google/gemini-3.6-flash:batch": {
       "input": 0.75,
       "output": 3.75
+    },
+    "google/gemini-3.6-flash:batch": {
+      "input": 0.375,
+      "output": 1.875
+    },
+    "google/gemini-3.7-flash": {
+      "input": 0.375,
+      "output": 1.875
+    },
+    "google/gemini-3.7-flash:batch": {
+      "input": 0.1875,
+      "output": 0.9375
     },
     "google/gemma-2-27b-it": {
       "input": 0.65,
@@ -825,10 +837,6 @@
     "inclusionai/ling-3.0-flash": {
       "input": 0.021,
       "output": 0.063
-    },
-    "inclusionai/ling-3.0-tiny:free": {
-      "input": 0.0,
-      "output": 0.0
     },
     "inclusionai/ring-2.6-1t": {
       "input": 0.075,
@@ -1667,7 +1675,7 @@
       "output": 3.9
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
-      "input": 0.09,
+      "input": 0.1,
       "output": 1.1
     },
     "qwen/qwen3-next-80b-a3b-thinking": {
@@ -1683,8 +1691,8 @@
       "output": 4.0
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
-      "input": 0.15,
-      "output": 0.6
+      "input": 0.13,
+      "output": 0.52
     },
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "input": 0.2,
@@ -1947,8 +1955,8 @@
       "output": 4.4
     },
     "z-ai/glm-5.2": {
-      "input": 0.5,
-      "output": 3.15
+      "input": 0.63,
+      "output": 1.98
     },
     "z-ai/glm-5.2:batch": {
       "input": 0.7,
@@ -1979,8 +1987,8 @@
       "output": 0.252
     },
     "~google/gemini-flash-latest": {
-      "input": 1.5,
-      "output": 7.5
+      "input": 0.375,
+      "output": 1.875
     },
     "~google/gemini-pro-latest": {
       "input": 2.0,

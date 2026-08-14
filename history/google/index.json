@@ -23,6 +23,7 @@
   "gemini-3.5-flash-lite": "gemini-3.5-flash-lite.jsonl",
   "gemini-3.5-live-translate-preview": "gemini-3.5-live-translate-preview.jsonl",
   "gemini-3.6-flash": "gemini-3.6-flash.jsonl",
+  "gemini-3.7-flash": "gemini-3.7-flash.jsonl",
   "gemini-embedding-001": "gemini-embedding-001.jsonl",
   "gemini-omni-flash-preview": "gemini-omni-flash-preview.jsonl",
   "gemini-robotics-er-1.6-preview": "gemini-robotics-er-1.6-preview.jsonl",
