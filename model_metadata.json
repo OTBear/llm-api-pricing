@@ -816,6 +816,11 @@
       "params_b": null,
       "updated": "2026-08-13"
     },
+    "dots-studio/dots-3-note-preview:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-15"
+    },
     "google/gemini-2.5-flash": {
       "intelligence_index": null,
       "params_b": null,
@@ -2245,6 +2250,11 @@
       "intelligence_index": null,
       "params_b": 2446.2,
       "updated": "2026-08-13"
+    },
+    "qwen/qwen3.8-27b": {
+      "intelligence_index": null,
+      "params_b": 27.8,
+      "updated": "2026-08-15"
     },
     "qwen/qwen3.8-max": {
       "intelligence_index": 58.1,
