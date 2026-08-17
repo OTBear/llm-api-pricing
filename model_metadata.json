@@ -2486,6 +2486,11 @@
       "params_b": null,
       "updated": "2026-08-08"
     },
+    "z-ai/glm-5.2:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-17"
+    },
     "z-ai/glm-5v-turbo": {
       "intelligence_index": null,
       "params_b": null,
