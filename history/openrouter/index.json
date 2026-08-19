@@ -409,6 +409,7 @@
   "z-ai/glm-5.2": "z-ai/glm-5.2.jsonl",
   "z-ai/glm-5.2:batch": "z-ai/glm-5.2_batch.jsonl",
   "z-ai/glm-5.2:free": "z-ai/glm-5.2_free.jsonl",
+  "z-ai/glm-5.3": "z-ai/glm-5.3.jsonl",
   "z-ai/glm-5v-turbo": "z-ai/glm-5v-turbo.jsonl",
   "~anthropic/claude-fable-latest": "anthropic/claude-fable-latest.jsonl",
   "~anthropic/claude-haiku-latest": "anthropic/claude-haiku-latest.jsonl",
