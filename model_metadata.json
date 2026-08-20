@@ -2555,6 +2555,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "~z-ai/glm-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-20"
     }
   }
 }

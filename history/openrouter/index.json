@@ -421,5 +421,6 @@
   "~moonshotai/kimi-latest": "moonshotai/kimi-latest.jsonl",
   "~openai/gpt-latest": "openai/gpt-latest.jsonl",
   "~openai/gpt-mini-latest": "openai/gpt-mini-latest.jsonl",
-  "~x-ai/grok-latest": "x-ai/grok-latest.jsonl"
+  "~x-ai/grok-latest": "x-ai/grok-latest.jsonl",
+  "~z-ai/glm-latest": "z-ai/glm-latest.jsonl"
 }
