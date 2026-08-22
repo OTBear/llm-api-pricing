@@ -806,6 +806,11 @@
       "params_b": 304.2,
       "updated": "2026-08-07"
     },
+    "deepseek/deepseek-v4-flash-vision-exp": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-22"
+    },
     "deepseek/deepseek-v4-pro": {
       "intelligence_index": 45.3,
       "params_b": 1598.8,
@@ -1160,6 +1165,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-08"
+    },
+    "meta/muse-spark-1.2-contributor": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-22"
     },
     "microsoft/phi-4": {
       "intelligence_index": null,
@@ -2381,10 +2391,20 @@
       "params_b": 266.0,
       "updated": "2026-08-07"
     },
+    "thinkingmachines/inkling-small:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-22"
+    },
     "thinkingmachines/inkling:batch": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-08"
+    },
+    "thinkingmachines/inkling:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-22"
     },
     "undi95/remm-slerp-l2-13b": {
       "intelligence_index": null,
