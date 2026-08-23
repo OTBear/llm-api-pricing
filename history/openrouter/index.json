@@ -381,6 +381,7 @@
   "tencent/hunyuan-a13b-instruct": "tencent/hunyuan-a13b-instruct.jsonl",
   "tencent/hy-mt2-1.8b": "tencent/hy-mt2-1.8b.jsonl",
   "tencent/hy-mt2-30b-a3b": "tencent/hy-mt2-30b-a3b.jsonl",
+  "tencent/hy-mt2-7b": "tencent/hy-mt2-7b.jsonl",
   "tencent/hy3": "tencent/hy3.jsonl",
   "tencent/hy3-preview": "tencent/hy3-preview.jsonl",
   "thedrummer/cydonia-24b-v4.1": "thedrummer/cydonia-24b-v4.1.jsonl",
