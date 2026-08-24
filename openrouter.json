@@ -256,20 +256,20 @@
     "output": 0.41
   },
   "deepseek/deepseek-v4-flash": {
-    "input": 0.05166,
-    "output": 0.10332
+    "input": 0.0574,
+    "output": 0.1148
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "input": 0.08,
-    "output": 0.18
+    "input": 0.14,
+    "output": 0.28
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
     "input": 0.22,
     "output": 0.66
   },
   "deepseek/deepseek-v4-pro": {
-    "input": 0.396894,
-    "output": 0.793788
+    "input": 0.526176,
+    "output": 1.052352
   },
   "deepseek/deepseek-v4-pro-0813": {
     "input": 1.122,
@@ -580,8 +580,8 @@
     "output": 1.08
   },
   "minimax/minimax-m2.7": {
-    "input": 0.3,
-    "output": 1.2
+    "input": 0.24,
+    "output": 0.96
   },
   "minimax/minimax-m3": {
     "input": 0.3,
@@ -1360,8 +1360,8 @@
     "output": 1.25
   },
   "qwen/qwen3.5-397b-a17b": {
-    "input": 0.39,
-    "output": 2.34
+    "input": 0.5,
+    "output": 3.6
   },
   "qwen/qwen3.5-9b": {
     "input": 0.1,
@@ -1380,8 +1380,8 @@
     "output": 1.8
   },
   "qwen/qwen3.6-27b": {
-    "input": 0.6,
-    "output": 3.6
+    "input": 0.32,
+    "output": 3.2
   },
   "qwen/qwen3.6-35b-a3b": {
     "input": 0.14,
@@ -1656,8 +1656,8 @@
     "output": 10.0
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "input": 0.05,
-    "output": 0.1
+    "input": 0.04,
+    "output": 0.08
   },
   "~google/gemini-flash-latest": {
     "input": 0.375,
