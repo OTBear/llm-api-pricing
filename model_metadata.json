@@ -1216,6 +1216,11 @@
       "params_b": 228.7,
       "updated": "2026-08-07"
     },
+    "minimax/minimax-m2.7:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-25"
+    },
     "minimax/minimax-m3": {
       "intelligence_index": 45.4,
       "params_b": 427.0,
@@ -1226,10 +1231,20 @@
       "params_b": null,
       "updated": "2026-08-08"
     },
+    "minimax/minimax-m3:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-25"
+    },
     "mistralai/codestral-2508": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "mistralai/devstral-2512": {
+      "intelligence_index": 19.2,
+      "params_b": 125.0,
+      "updated": "2026-08-25"
     },
     "mistralai/ministral-14b-2512": {
       "intelligence_index": 11.2,
