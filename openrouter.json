@@ -256,16 +256,16 @@
     "output": 0.41
   },
   "deepseek/deepseek-v4-flash": {
-    "input": 0.088606,
-    "output": 0.177212
+    "input": 0.07798,
+    "output": 0.15596
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "input": 0.06,
-    "output": 0.12
+    "input": 0.05,
+    "output": 0.1
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
-    "input": 0.44,
-    "output": 1.32
+    "input": 0.22,
+    "output": 0.66
   },
   "deepseek/deepseek-v4-pro": {
     "input": 0.87,
@@ -458,6 +458,10 @@
   "inclusionai/ling-3.0-flash": {
     "input": 0.021,
     "output": 0.063
+  },
+  "inclusionai/ling-3.0-flash-fin:free": {
+    "input": 0.0,
+    "output": 0.0
   },
   "kwaipilot/kat-coder-air-v2.5": {
     "input": 0.15,
@@ -684,7 +688,7 @@
     "output": 4.0
   },
   "moonshotai/kimi-k2.7-code": {
-    "input": 0.67,
+    "input": 0.66,
     "output": 3.4
   },
   "moonshotai/kimi-k2.7-code:batch": {
@@ -1236,8 +1240,8 @@
     "output": 1.82
   },
   "qwen/qwen3-235b-a22b-2507": {
-    "input": 0.09,
-    "output": 0.55
+    "input": 0.0875,
+    "output": 0.35
   },
   "qwen/qwen3-235b-a22b-thinking-2507": {
     "input": 0.23,
@@ -1364,8 +1368,8 @@
     "output": 3.6
   },
   "qwen/qwen3.6-35b-a3b": {
-    "input": 0.14,
-    "output": 1.0
+    "input": 0.1,
+    "output": 0.9
   },
   "qwen/qwen3.6-flash": {
     "input": 0.1875,
@@ -1398,6 +1402,10 @@
   "qwen/qwen3.8-27b": {
     "input": 0.425,
     "output": 2.55
+  },
+  "qwen/qwen3.8-flash": {
+    "input": 0.15,
+    "output": 0.47
   },
   "qwen/qwen3.8-max": {
     "input": 2.0,
@@ -1439,10 +1447,6 @@
     "input": 0.65,
     "output": 0.75
   },
-  "stealth/ox-alpha": {
-    "input": 0.0,
-    "output": 0.0
-  },
   "stepfun/step-3.5-flash": {
     "input": 0.1,
     "output": 0.3
@@ -1468,8 +1472,8 @@
     "output": 0.295
   },
   "tencent/hy3": {
-    "input": 0.132,
-    "output": 0.528
+    "input": 0.0825,
+    "output": 0.33
   },
   "tencent/hy3-preview": {
     "input": 0.18,
@@ -1572,8 +1576,8 @@
     "output": 1.8
   },
   "z-ai/glm-4.6": {
-    "input": 0.5,
-    "output": 2.0
+    "input": 0.43,
+    "output": 1.75
   },
   "z-ai/glm-4.6v": {
     "input": 0.3,
@@ -1603,10 +1607,6 @@
     "input": 1.19,
     "output": 3.74
   },
-  "z-ai/glm-5.2:batch": {
-    "input": 1.4,
-    "output": 4.4
-  },
   "z-ai/glm-5.2:free": {
     "input": 0.0,
     "output": 0.0
@@ -1614,6 +1614,10 @@
   "z-ai/glm-5.3": {
     "input": 1.4,
     "output": 4.4
+  },
+  "z-ai/glm-5.3-flash": {
+    "input": 0.075,
+    "output": 0.25
   },
   "z-ai/glm-5v-turbo": {
     "input": 1.2,
@@ -1637,7 +1641,7 @@
   },
   "~deepseek/deepseek-v4-flash-latest": {
     "input": 0.03,
-    "output": 0.075
+    "output": 0.1
   },
   "~google/gemini-flash-latest": {
     "input": 0.375,

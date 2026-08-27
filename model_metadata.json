@@ -192,6 +192,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "gemini-3.5-transcribe": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-27"
+    },
+    "gemini-3.5-transcribe-live": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-27"
+    },
     "gemini-3.6-flash": {
       "intelligence_index": 51.6,
       "params_b": null,
@@ -1065,6 +1075,11 @@
       "intelligence_index": 37.8,
       "params_b": 127.5,
       "updated": "2026-08-08"
+    },
+    "inclusionai/ling-3.0-flash-fin:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-27"
     },
     "inclusionai/ling-3.0-flash:free": {
       "intelligence_index": null,
@@ -2286,6 +2301,11 @@
       "params_b": 27.8,
       "updated": "2026-08-15"
     },
+    "qwen/qwen3.8-flash": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-27"
+    },
     "qwen/qwen3.8-max": {
       "intelligence_index": 58.1,
       "params_b": null,
@@ -2555,6 +2575,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-19"
+    },
+    "z-ai/glm-5.3-flash": {
+      "intelligence_index": 57.5,
+      "params_b": 321.3,
+      "updated": "2026-08-27"
     },
     "z-ai/glm-5v-turbo": {
       "intelligence_index": null,

@@ -1,12 +1,4 @@
 {
-  "gemini-2.0-flash": {
-    "input": 0.1,
-    "output": 0.4
-  },
-  "gemini-2.0-flash-lite": {
-    "input": 0.075,
-    "output": 0.3
-  },
   "gemini-2.5-computer-use-preview-10-2025": {
     "input": 1.25,
     "output": 10.0
@@ -20,10 +12,6 @@
     "output": 0.039
   },
   "gemini-2.5-flash-lite": {
-    "input": 0.1,
-    "output": 0.4
-  },
-  "gemini-2.5-flash-lite-preview-09-2025": {
     "input": 0.1,
     "output": 0.4
   },
@@ -88,6 +76,14 @@
     "output": 2.5
   },
   "gemini-3.5-live-translate-preview": {
+    "input": 3.5,
+    "output": 21.0
+  },
+  "gemini-3.5-transcribe": {
+    "input": 2.0,
+    "output": 12.0
+  },
+  "gemini-3.5-transcribe-live": {
     "input": 3.5,
     "output": 21.0
   },
