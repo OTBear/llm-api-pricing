@@ -99,6 +99,10 @@
     "input": 0.15,
     "output": 0.0
   },
+  "gemini-omni-1.1-flash": {
+    "input": 1.5,
+    "output": 9.0
+  },
   "gemini-omni-flash-preview": {
     "input": 1.5,
     "output": 9.0

@@ -217,6 +217,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "gemini-omni-1.1-flash": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
+    },
     "gemini-omni-flash-preview": {
       "intelligence_index": null,
       "params_b": null,
@@ -1256,6 +1261,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "mistralai/codestral-2508:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
+    },
     "mistralai/devstral-2512": {
       "intelligence_index": 19.2,
       "params_b": 125.0,
@@ -1281,6 +1291,11 @@
       "params_b": 8.9,
       "updated": "2026-08-07"
     },
+    "mistralai/ministral-8b-2512:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
+    },
     "mistralai/mistral-large": {
       "intelligence_index": null,
       "params_b": null,
@@ -1296,6 +1311,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "mistralai/mistral-large-2512:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
+    },
     "mistralai/mistral-medium-3": {
       "intelligence_index": null,
       "params_b": null,
@@ -1306,10 +1326,20 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "mistralai/mistral-medium-3-5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
+    },
     "mistralai/mistral-medium-3.1": {
       "intelligence_index": 14.7,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "mistralai/mistral-medium-3.1:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
     },
     "mistralai/mistral-nemo": {
       "intelligence_index": null,
@@ -1330,6 +1360,11 @@
       "intelligence_index": 19.7,
       "params_b": 119.4,
       "updated": "2026-08-07"
+    },
+    "mistralai/mistral-small-2603:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
     },
     "mistralai/mistral-small-3.1-24b-instruct": {
       "intelligence_index": null,
@@ -2296,6 +2331,11 @@
       "params_b": 2446.2,
       "updated": "2026-08-13"
     },
+    "qwen/qwen3.8-2.4t-a95b:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
+    },
     "qwen/qwen3.8-27b": {
       "intelligence_index": null,
       "params_b": 27.8,
@@ -2400,6 +2440,11 @@
       "intelligence_index": 42.2,
       "params_b": 298.8,
       "updated": "2026-08-07"
+    },
+    "tencent/hy4-preview": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-28"
     },
     "thedrummer/cydonia-24b-v4.1": {
       "intelligence_index": null,
