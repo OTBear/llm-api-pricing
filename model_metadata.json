@@ -821,6 +821,11 @@
       "params_b": 304.2,
       "updated": "2026-08-07"
     },
+    "deepseek/deepseek-v4-flash-0731:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
+    },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "intelligence_index": null,
       "params_b": null,
@@ -835,6 +840,11 @@
       "intelligence_index": 45.3,
       "params_b": null,
       "updated": "2026-08-13"
+    },
+    "deepseek/deepseek-v4-pro-0813:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
     },
     "dots-studio/dots-3-note-preview:free": {
       "intelligence_index": null,
@@ -1031,6 +1041,11 @@
       "params_b": 31.3,
       "updated": "2026-08-07"
     },
+    "google/gemma-4-31b-it:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
+    },
     "google/gemma-4-31b-it:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -1175,6 +1190,11 @@
       "intelligence_index": null,
       "params_b": 29.8,
       "updated": "2026-08-11"
+    },
+    "meta/muse-glimmer-30b:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
     },
     "meta/muse-spark-1.1": {
       "intelligence_index": 53.2,
@@ -1425,6 +1445,11 @@
       "intelligence_index": 59.7,
       "params_b": 2779.9,
       "updated": "2026-08-07"
+    },
+    "moonshotai/kimi-k3:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
     },
     "morph/morph-v3-fast": {
       "intelligence_index": null,
@@ -1911,10 +1936,20 @@
       "params_b": 116.8,
       "updated": "2026-08-07"
     },
+    "openai/gpt-oss-120b:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
+    },
     "openai/gpt-oss-20b": {
       "intelligence_index": 15.2,
       "params_b": 21.5,
       "updated": "2026-08-07"
+    },
+    "openai/gpt-oss-20b:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
     },
     "openai/gpt-oss-20b:free": {
       "intelligence_index": null,
@@ -2271,6 +2306,11 @@
       "params_b": 9.7,
       "updated": "2026-08-07"
     },
+    "qwen/qwen3.5-9b:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
+    },
     "qwen/qwen3.5-flash-02-23": {
       "intelligence_index": null,
       "params_b": null,
@@ -2476,6 +2516,11 @@
       "params_b": 266.0,
       "updated": "2026-08-07"
     },
+    "thinkingmachines/inkling-small:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
+    },
     "thinkingmachines/inkling-small:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -2625,6 +2670,11 @@
       "intelligence_index": 57.5,
       "params_b": 321.3,
       "updated": "2026-08-27"
+    },
+    "z-ai/glm-5.3-flash:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-08-29"
     },
     "z-ai/glm-5v-turbo": {
       "intelligence_index": null,
