@@ -519,8 +519,8 @@
       "output": 5.0
     },
     "arcee-ai/trinity-large-thinking": {
-      "input": 0.22,
-      "output": 0.85
+      "input": 0.25,
+      "output": 0.8
     },
     "baidu/ernie-4.5-vl-424b-a47b": {
       "input": 0.42,
@@ -615,12 +615,12 @@
       "output": 0.41
     },
     "deepseek/deepseek-v4-flash": {
-      "input": 0.08344,
-      "output": 0.16688
+      "input": 0.08008,
+      "output": 0.16016
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "input": 0.045,
-      "output": 0.09
+      "input": 0.065,
+      "output": 0.18
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
       "input": 0.14,
@@ -631,8 +631,8 @@
       "output": 0.66
     },
     "deepseek/deepseek-v4-pro": {
-      "input": 0.630054,
-      "output": 1.260108
+      "input": 0.437436,
+      "output": 0.874872
     },
     "deepseek/deepseek-v4-pro-0813": {
       "input": 0.66,
@@ -1559,7 +1559,7 @@
       "output": 3.9
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
-      "input": 0.1,
+      "input": 0.09,
       "output": 1.1
     },
     "qwen/qwen3-next-80b-a3b-thinking": {
@@ -1767,7 +1767,7 @@
       "output": 0.4
     },
     "thinkingmachines/inkling": {
-      "input": 0.95,
+      "input": 1.0,
       "output": 4.05
     },
     "thinkingmachines/inkling-small": {
@@ -1875,8 +1875,8 @@
       "output": 4.0
     },
     "z-ai/glm-5.1": {
-      "input": 1.26,
-      "output": 3.96
+      "input": 0.966,
+      "output": 3.036
     },
     "z-ai/glm-5.2": {
       "input": 1.19,
@@ -1920,7 +1920,7 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "input": 0.03,
-      "output": 0.1
+      "output": 0.16
     },
     "~google/gemini-flash-latest": {
       "input": 0.75,
