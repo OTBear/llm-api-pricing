@@ -403,7 +403,7 @@
       "output": 3.2
     },
     "anthracite-org/magnum-v4-72b": {
-      "input": 3.0,
+      "input": 2.5,
       "output": 5.0
     },
     "anthropic/claude-3-haiku": {
@@ -615,8 +615,8 @@
       "output": 0.41
     },
     "deepseek/deepseek-v4-flash": {
-      "input": 0.088606,
-      "output": 0.177212
+      "input": 0.08092,
+      "output": 0.16184
     },
     "deepseek/deepseek-v4-flash-0731": {
       "input": 0.065,
@@ -631,8 +631,8 @@
       "output": 0.66
     },
     "deepseek/deepseek-v4-pro": {
-      "input": 1.04226,
-      "output": 2.08452
+      "input": 1.6,
+      "output": 3.2
     },
     "deepseek/deepseek-v4-pro-0813": {
       "input": 0.66,
@@ -822,6 +822,10 @@
       "input": 0.05,
       "output": 0.1
     },
+    "ibm-granite/granite-4.2-8b": {
+      "input": 0.1,
+      "output": 0.15
+    },
     "inception/mercury-2": {
       "input": 0.25,
       "output": 0.75
@@ -833,10 +837,6 @@
     "inclusionai/ling-3.0-flash-fin:free": {
       "input": 0.0,
       "output": 0.0
-    },
-    "kwaipilot/kat-coder-air-v2.5": {
-      "input": 0.15,
-      "output": 0.6
     },
     "kwaipilot/kat-coder-pro-v2": {
       "input": 0.3,
@@ -851,7 +851,7 @@
       "output": 0.0
     },
     "mancer/weaver": {
-      "input": 0.5,
+      "input": 0.4,
       "output": 0.75
     },
     "meituan/longcat-2.0": {
@@ -883,8 +883,8 @@
       "output": 0.696
     },
     "meta-llama/llama-4-scout": {
-      "input": 0.11,
-      "output": 0.34
+      "input": 0.1,
+      "output": 0.3
     },
     "meta-llama/llama-guard-4-12b": {
       "input": 0.18,
@@ -966,10 +966,6 @@
       "input": 0.3,
       "output": 0.9
     },
-    "mistralai/codestral-2508:batch": {
-      "input": 0.3,
-      "output": 0.9
-    },
     "mistralai/devstral-2512": {
       "input": 0.4,
       "output": 2.0
@@ -986,10 +982,6 @@
       "input": 0.15,
       "output": 0.15
     },
-    "mistralai/ministral-8b-2512:batch": {
-      "input": 0.15,
-      "output": 0.15
-    },
     "mistralai/mistral-large": {
       "input": 2.0,
       "output": 6.0
@@ -999,10 +991,6 @@
       "output": 6.0
     },
     "mistralai/mistral-large-2512": {
-      "input": 0.5,
-      "output": 1.5
-    },
-    "mistralai/mistral-large-2512:batch": {
       "input": 0.5,
       "output": 1.5
     },
@@ -1022,10 +1010,6 @@
       "input": 0.4,
       "output": 2.0
     },
-    "mistralai/mistral-medium-3.1:batch": {
-      "input": 0.4,
-      "output": 2.0
-    },
     "mistralai/mistral-nemo": {
       "input": 0.019,
       "output": 0.03
@@ -1039,10 +1023,6 @@
       "output": 0.08
     },
     "mistralai/mistral-small-2603": {
-      "input": 0.15,
-      "output": 0.6
-    },
-    "mistralai/mistral-small-2603:batch": {
       "input": 0.15,
       "output": 0.6
     },
@@ -1182,6 +1162,10 @@
       "input": 1.5,
       "output": 2.0
     },
+    "openai/gpt-3.5-turbo:batch": {
+      "input": 0.25,
+      "output": 0.75
+    },
     "openai/gpt-4": {
       "input": 30.0,
       "output": 60.0
@@ -1194,6 +1178,10 @@
       "input": 10.0,
       "output": 30.0
     },
+    "openai/gpt-4-turbo:batch": {
+      "input": 5.0,
+      "output": 15.0
+    },
     "openai/gpt-4.1": {
       "input": 2.0,
       "output": 8.0
@@ -1202,9 +1190,21 @@
       "input": 0.4,
       "output": 1.6
     },
+    "openai/gpt-4.1-mini:batch": {
+      "input": 0.2,
+      "output": 0.8
+    },
     "openai/gpt-4.1-nano": {
       "input": 0.1,
       "output": 0.4
+    },
+    "openai/gpt-4.1-nano:batch": {
+      "input": 0.05,
+      "output": 0.2
+    },
+    "openai/gpt-4.1:batch": {
+      "input": 1.0,
+      "output": 4.0
     },
     "openai/gpt-4o": {
       "input": 2.5,
@@ -1230,6 +1230,14 @@
       "input": 0.15,
       "output": 0.6
     },
+    "openai/gpt-4o-mini:batch": {
+      "input": 0.075,
+      "output": 0.3
+    },
+    "openai/gpt-4o:batch": {
+      "input": 1.25,
+      "output": 5.0
+    },
     "openai/gpt-5": {
       "input": 1.25,
       "output": 10.0
@@ -1246,13 +1254,25 @@
       "input": 0.25,
       "output": 2.0
     },
+    "openai/gpt-5-mini:batch": {
+      "input": 0.125,
+      "output": 1.0
+    },
     "openai/gpt-5-nano": {
       "input": 0.05,
       "output": 0.4
     },
+    "openai/gpt-5-nano:batch": {
+      "input": 0.025,
+      "output": 0.2
+    },
     "openai/gpt-5-pro": {
       "input": 15.0,
       "output": 120.0
+    },
+    "openai/gpt-5-pro:batch": {
+      "input": 7.5,
+      "output": 60.0
     },
     "openai/gpt-5.1": {
       "input": 1.25,
@@ -1270,6 +1290,10 @@
       "input": 0.25,
       "output": 2.0
     },
+    "openai/gpt-5.1:batch": {
+      "input": 0.625,
+      "output": 5.0
+    },
     "openai/gpt-5.2": {
       "input": 1.75,
       "output": 14.0
@@ -1285,6 +1309,14 @@
     "openai/gpt-5.2-pro": {
       "input": 21.0,
       "output": 168.0
+    },
+    "openai/gpt-5.2-pro:batch": {
+      "input": 10.5,
+      "output": 84.0
+    },
+    "openai/gpt-5.2:batch": {
+      "input": 0.875,
+      "output": 7.0
     },
     "openai/gpt-5.3-codex": {
       "input": 1.75,
@@ -1302,13 +1334,29 @@
       "input": 0.75,
       "output": 4.5
     },
+    "openai/gpt-5.4-mini:batch": {
+      "input": 0.375,
+      "output": 2.25
+    },
     "openai/gpt-5.4-nano": {
       "input": 0.2,
       "output": 1.25
     },
+    "openai/gpt-5.4-nano:batch": {
+      "input": 0.1,
+      "output": 0.625
+    },
     "openai/gpt-5.4-pro": {
       "input": 30.0,
       "output": 180.0
+    },
+    "openai/gpt-5.4-pro:batch": {
+      "input": 15.0,
+      "output": 90.0
+    },
+    "openai/gpt-5.4:batch": {
+      "input": 1.25,
+      "output": 7.5
     },
     "openai/gpt-5.5": {
       "input": 5.0,
@@ -1318,6 +1366,14 @@
       "input": 30.0,
       "output": 180.0
     },
+    "openai/gpt-5.5-pro:batch": {
+      "input": 15.0,
+      "output": 90.0
+    },
+    "openai/gpt-5.5:batch": {
+      "input": 2.5,
+      "output": 15.0
+    },
     "openai/gpt-5.6-luna": {
       "input": 0.2,
       "output": 1.2
@@ -1325,6 +1381,14 @@
     "openai/gpt-5.6-luna-pro": {
       "input": 0.2,
       "output": 1.2
+    },
+    "openai/gpt-5.6-luna-pro:batch": {
+      "input": 0.1,
+      "output": 0.6
+    },
+    "openai/gpt-5.6-luna:batch": {
+      "input": 0.1,
+      "output": 0.6
     },
     "openai/gpt-5.6-sol": {
       "input": 2.0,
@@ -1334,6 +1398,14 @@
       "input": 2.0,
       "output": 10.0
     },
+    "openai/gpt-5.6-sol-pro:batch": {
+      "input": 1.0,
+      "output": 5.0
+    },
+    "openai/gpt-5.6-sol:batch": {
+      "input": 1.0,
+      "output": 5.0
+    },
     "openai/gpt-5.6-terra": {
       "input": 2.0,
       "output": 12.0
@@ -1341,6 +1413,18 @@
     "openai/gpt-5.6-terra-pro": {
       "input": 2.0,
       "output": 12.0
+    },
+    "openai/gpt-5.6-terra-pro:batch": {
+      "input": 1.0,
+      "output": 6.0
+    },
+    "openai/gpt-5.6-terra:batch": {
+      "input": 1.0,
+      "output": 6.0
+    },
+    "openai/gpt-5:batch": {
+      "input": 0.625,
+      "output": 5.0
     },
     "openai/gpt-audio": {
       "input": 2.5,
@@ -1394,9 +1478,17 @@
       "input": 1.1,
       "output": 4.4
     },
+    "openai/o3-mini:batch": {
+      "input": 0.55,
+      "output": 2.2
+    },
     "openai/o3-pro": {
       "input": 20.0,
       "output": 80.0
+    },
+    "openai/o3:batch": {
+      "input": 1.0,
+      "output": 4.0
     },
     "openai/o4-mini": {
       "input": 1.1,
@@ -1405,6 +1497,10 @@
     "openai/o4-mini-high": {
       "input": 1.1,
       "output": 4.4
+    },
+    "openai/o4-mini:batch": {
+      "input": 0.55,
+      "output": 2.2
     },
     "openrouter/auto": {
       "input": -1000000.0,
@@ -1559,7 +1655,7 @@
       "output": 3.9
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
-      "input": 0.09,
+      "input": 0.1,
       "output": 1.1
     },
     "qwen/qwen3-next-80b-a3b-thinking": {
@@ -1919,7 +2015,7 @@
       "output": 10.0
     },
     "~deepseek/deepseek-v4-flash-latest": {
-      "input": 0.03,
+      "input": 0.05,
       "output": 0.16
     },
     "~google/gemini-flash-latest": {
@@ -1947,8 +2043,8 @@
       "output": 6.0
     },
     "~z-ai/glm-latest": {
-      "input": 1.1875,
-      "output": 4.18
+      "input": 1.17,
+      "output": 3.96
     }
   }
 }

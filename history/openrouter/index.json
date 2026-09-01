@@ -118,6 +118,7 @@
   "gryphe/mythomax-l2-13b": "gryphe/mythomax-l2-13b.jsonl",
   "ibm-granite/granite-4.0-h-micro": "ibm-granite/granite-4.0-h-micro.jsonl",
   "ibm-granite/granite-4.1-8b": "ibm-granite/granite-4.1-8b.jsonl",
+  "ibm-granite/granite-4.2-8b": "ibm-granite/granite-4.2-8b.jsonl",
   "inception/mercury-2": "inception/mercury-2.jsonl",
   "inclusionai/ling-2.6-1t": "inclusionai/ling-2.6-1t.jsonl",
   "inclusionai/ling-2.6-flash": "inclusionai/ling-2.6-flash.jsonl",
