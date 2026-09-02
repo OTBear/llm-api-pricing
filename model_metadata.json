@@ -551,6 +551,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-fable-5.1": {
+      "intelligence_index": 65.7,
+      "params_b": null,
+      "updated": "2026-09-02"
+    },
+    "anthropic/claude-fable-5.1:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-02"
+    },
     "anthropic/claude-fable-5:batch": {
       "intelligence_index": null,
       "params_b": null,
@@ -1085,6 +1095,11 @@
       "intelligence_index": 21.9,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "inception/mercury-2.5-preview": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-02"
     },
     "inclusionai/ling-2.6-1t": {
       "intelligence_index": null,
@@ -2740,6 +2755,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "~z-ai/glm-flash-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-02"
     },
     "~z-ai/glm-latest": {
       "intelligence_index": null,

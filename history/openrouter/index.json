@@ -13,6 +13,8 @@
   "anthracite-org/magnum-v4-72b": "anthracite-org/magnum-v4-72b.jsonl",
   "anthropic/claude-3-haiku": "anthropic/claude-3-haiku.jsonl",
   "anthropic/claude-fable-5": "anthropic/claude-fable-5.jsonl",
+  "anthropic/claude-fable-5.1": "anthropic/claude-fable-5.1.jsonl",
+  "anthropic/claude-fable-5.1:batch": "anthropic/claude-fable-5.1_batch.jsonl",
   "anthropic/claude-fable-5:batch": "anthropic/claude-fable-5_batch.jsonl",
   "anthropic/claude-haiku-4.5": "anthropic/claude-haiku-4.5.jsonl",
   "anthropic/claude-haiku-4.5:batch": "anthropic/claude-haiku-4.5_batch.jsonl",
@@ -120,6 +122,7 @@
   "ibm-granite/granite-4.1-8b": "ibm-granite/granite-4.1-8b.jsonl",
   "ibm-granite/granite-4.2-8b": "ibm-granite/granite-4.2-8b.jsonl",
   "inception/mercury-2": "inception/mercury-2.jsonl",
+  "inception/mercury-2.5-preview": "inception/mercury-2.5-preview.jsonl",
   "inclusionai/ling-2.6-1t": "inclusionai/ling-2.6-1t.jsonl",
   "inclusionai/ling-2.6-flash": "inclusionai/ling-2.6-flash.jsonl",
   "inclusionai/ling-3.0-flash": "inclusionai/ling-3.0-flash.jsonl",
@@ -455,5 +458,6 @@
   "~openai/gpt-latest": "openai/gpt-latest.jsonl",
   "~openai/gpt-mini-latest": "openai/gpt-mini-latest.jsonl",
   "~x-ai/grok-latest": "x-ai/grok-latest.jsonl",
+  "~z-ai/glm-flash-latest": "z-ai/glm-flash-latest.jsonl",
   "~z-ai/glm-latest": "z-ai/glm-latest.jsonl"
 }
