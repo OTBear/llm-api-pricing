@@ -26,6 +26,7 @@
   "gemini-3.5-transcribe-live": "gemini-3.5-transcribe-live.jsonl",
   "gemini-3.6-flash": "gemini-3.6-flash.jsonl",
   "gemini-3.7-flash": "gemini-3.7-flash.jsonl",
+  "gemini-3.8-flash": "gemini-3.8-flash.jsonl",
   "gemini-embedding-001": "gemini-embedding-001.jsonl",
   "gemini-omni-1.1-flash": "gemini-omni-1.1-flash.jsonl",
   "gemini-omni-flash-preview": "gemini-omni-flash-preview.jsonl",
