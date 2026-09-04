@@ -434,6 +434,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "gpt-6-astra": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-04"
+    },
     "o1": {
       "intelligence_index": null,
       "params_b": null,
@@ -1131,6 +1136,11 @@
       "params_b": 127.5,
       "updated": "2026-08-08"
     },
+    "inclusionai/ling-3.0-flash-fin": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-04"
+    },
     "inclusionai/ling-3.0-flash-fin:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -1575,6 +1585,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "nvidia/nemotron-3.5-content-safety": {
+      "intelligence_index": null,
+      "params_b": 4.3,
+      "updated": "2026-09-04"
     },
     "nvidia/nemotron-3.5-content-safety:free": {
       "intelligence_index": null,
@@ -2615,6 +2630,11 @@
       "intelligence_index": 37.9,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "x-ai/grok-4.3:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-04"
     },
     "x-ai/grok-4.5": {
       "intelligence_index": 55.8,

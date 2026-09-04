@@ -56,6 +56,7 @@
   "gpt-5.6-luna": "gpt-5.6-luna.jsonl",
   "gpt-5.6-sol": "gpt-5.6-sol.jsonl",
   "gpt-5.6-terra": "gpt-5.6-terra.jsonl",
+  "gpt-6-astra": "gpt-6-astra.jsonl",
   "o1": "o1.jsonl",
   "o1-mini": "o1-mini.jsonl",
   "o1-pro": "o1-pro.jsonl",

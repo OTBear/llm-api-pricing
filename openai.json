@@ -139,6 +139,10 @@
     "input": 4.0,
     "output": 24.0
   },
+  "gpt-6-astra": {
+    "input": 20.0,
+    "output": 100.0
+  },
   "o1": {
     "input": 7.5,
     "output": 30.0
