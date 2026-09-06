@@ -558,12 +558,12 @@
       "output": 0.41
     },
     "deepseek/deepseek-v4-flash": {
-      "input": 0.08526,
-      "output": 0.17052
+      "input": 0.08106,
+      "output": 0.16212
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "input": 0.065,
-      "output": 0.18
+      "input": 0.04998,
+      "output": 0.09996
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
       "input": 0.14,
@@ -574,8 +574,8 @@
       "output": 0.66
     },
     "deepseek/deepseek-v4-pro": {
-      "input": 0.910716,
-      "output": 1.821432
+      "input": 0.707832,
+      "output": 1.415664
     },
     "deepseek/deepseek-v4-pro-0813": {
       "input": 1.12068,
@@ -1682,8 +1682,8 @@
       "output": 1.56
     },
     "qwen/qwen3.5-35b-a3b": {
-      "input": 0.08,
-      "output": 0.75
+      "input": 0.3125,
+      "output": 1.25
     },
     "qwen/qwen3.5-397b-a17b": {
       "input": 0.55,
@@ -2002,8 +2002,8 @@
       "output": 10.0
     },
     "~deepseek/deepseek-v4-flash-latest": {
-      "input": 0.04998,
-      "output": 0.09996
+      "input": 0.045,
+      "output": 0.09
     },
     "~google/gemini-flash-latest": {
       "input": 0.75,
@@ -2034,8 +2034,8 @@
       "output": 0.25
     },
     "~z-ai/glm-latest": {
-      "input": 1.15,
-      "output": 3.5
+      "input": 1.17,
+      "output": 3.96
     }
   }
 }
