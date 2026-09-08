@@ -526,12 +526,12 @@
       "output": 0.89
     },
     "deepseek/deepseek-chat-v3-0324": {
-      "input": 0.25,
-      "output": 1.0
+      "input": 0.29,
+      "output": 1.14
     },
     "deepseek/deepseek-chat-v3.1": {
-      "input": 0.55,
-      "output": 1.65
+      "input": 0.25,
+      "output": 0.95
     },
     "deepseek/deepseek-r1": {
       "input": 0.7,
@@ -562,8 +562,8 @@
       "output": 0.177212
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "input": 0.14,
-      "output": 0.28
+      "input": 0.065,
+      "output": 0.18
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
       "input": 0.14,
@@ -890,7 +890,7 @@
       "output": 1.1
     },
     "minimax/minimax-m1": {
-      "input": 0.55,
+      "input": 0.4,
       "output": 2.2
     },
     "minimax/minimax-m2": {
@@ -913,10 +913,6 @@
       "input": 0.3,
       "output": 1.2
     },
-    "minimax/minimax-m2.7:free": {
-      "input": 0.0,
-      "output": 0.0
-    },
     "minimax/minimax-m3": {
       "input": 0.3,
       "output": 1.2
@@ -924,10 +920,6 @@
     "minimax/minimax-m3:batch": {
       "input": 0.3,
       "output": 1.2
-    },
-    "minimax/minimax-m3:free": {
-      "input": 0.0,
-      "output": 0.0
     },
     "mistralai/codestral-2508": {
       "input": 0.3,
@@ -1030,8 +1022,8 @@
       "output": 4.0
     },
     "moonshotai/kimi-k2.7-code": {
-      "input": 0.66,
-      "output": 3.4
+      "input": 0.71,
+      "output": 3.5
     },
     "moonshotai/kimi-k3": {
       "input": 3.0,
@@ -1574,8 +1566,8 @@
       "output": 1.0
     },
     "qwen/qwen3-14b": {
-      "input": 0.12,
-      "output": 0.24
+      "input": 0.2275,
+      "output": 0.91
     },
     "qwen/qwen3-235b-a22b": {
       "input": 0.455,
@@ -1934,8 +1926,8 @@
       "output": 1.8
     },
     "z-ai/glm-4.6": {
-      "input": 0.43,
-      "output": 1.75
+      "input": 0.55,
+      "output": 2.2
     },
     "z-ai/glm-4.6v": {
       "input": 0.3,
@@ -1946,7 +1938,7 @@
       "output": 1.75
     },
     "z-ai/glm-4.7-flash": {
-      "input": 0.06,
+      "input": 0.0605,
       "output": 0.4
     },
     "z-ai/glm-5": {
@@ -2010,8 +2002,8 @@
       "output": 12.0
     },
     "~moonshotai/kimi-latest": {
-      "input": 2.55,
-      "output": 12.75
+      "input": 2.5,
+      "output": 14.0
     },
     "~openai/gpt-latest": {
       "input": 2.0,
