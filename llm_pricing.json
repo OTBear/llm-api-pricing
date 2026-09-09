@@ -118,12 +118,12 @@
       "output": 5.0
     },
     "gemini-robotics-er-2-preview": {
-      "input": 2.0,
-      "output": 10.0
+      "input": 1.0,
+      "output": 5.0
     },
     "gemini-robotics-er-2-streaming-preview": {
-      "input": 2.0,
-      "output": 10.0
+      "input": 1.0,
+      "output": 5.0
     }
   },
   "openai": {
@@ -566,12 +566,16 @@
       "output": 0.18
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
-      "input": 0.14,
-      "output": 0.28
+      "input": 0.11,
+      "output": 0.33
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "input": 0.22,
       "output": 0.66
+    },
+    "deepseek/deepseek-v4-flash-vision-exp:batch": {
+      "input": 0.11,
+      "output": 0.33
     },
     "deepseek/deepseek-v4-pro": {
       "input": 0.95526,
@@ -582,8 +586,8 @@
       "output": 3.1482
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
-      "input": 1.32,
-      "output": 3.96
+      "input": 0.66,
+      "output": 1.98
     },
     "dots-studio/dots-3-note-preview:free": {
       "input": 0.0,
@@ -770,14 +774,14 @@
       "output": 0.112
     },
     "ibm-granite/granite-4.2-8b": {
-      "input": 0.1,
-      "output": 0.15
+      "input": 0.06,
+      "output": 0.25
     },
     "inception/mercury-2": {
       "input": 0.25,
       "output": 0.75
     },
-    "inception/mercury-2.5-preview": {
+    "inception/mercury-2.5": {
       "input": 0.04,
       "output": 0.15
     },
@@ -854,8 +858,8 @@
       "output": 1.1
     },
     "meta/muse-glimmer-30b:batch": {
-      "input": 0.35,
-      "output": 1.5
+      "input": 0.175,
+      "output": 0.75
     },
     "meta/muse-spark-1.1": {
       "input": 1.25,
@@ -890,7 +894,7 @@
       "output": 1.1
     },
     "minimax/minimax-m1": {
-      "input": 0.4,
+      "input": 0.55,
       "output": 2.2
     },
     "minimax/minimax-m2": {
@@ -1041,13 +1045,13 @@
       "input": 0.9,
       "output": 1.9
     },
-    "nex-agi/nex-n2-mini": {
-      "input": 0.025,
-      "output": 0.1
+    "nex-agi/nex-n2.5-mini:free": {
+      "input": 0.0,
+      "output": 0.0
     },
-    "nex-agi/nex-n2-pro": {
-      "input": 0.25,
-      "output": 1.0
+    "nex-agi/nex-n2.5-pro:free": {
+      "input": 0.0,
+      "output": 0.0
     },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "input": 1.0,
@@ -1574,8 +1578,8 @@
       "output": 1.82
     },
     "qwen/qwen3-235b-a22b-2507": {
-      "input": 0.09,
-      "output": 0.55
+      "input": 0.22,
+      "output": 0.88
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "input": 0.23,
@@ -1630,7 +1634,7 @@
       "output": 3.9
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
-      "input": 0.1,
+      "input": 0.09,
       "output": 1.1
     },
     "qwen/qwen3-next-80b-a3b-thinking": {
@@ -1678,8 +1682,8 @@
       "output": 1.25
     },
     "qwen/qwen3.5-397b-a17b": {
-      "input": 0.39,
-      "output": 2.34
+      "input": 0.55,
+      "output": 3.5
     },
     "qwen/qwen3.5-9b": {
       "input": 0.1,
@@ -1926,8 +1930,8 @@
       "output": 1.8
     },
     "z-ai/glm-4.6": {
-      "input": 0.55,
-      "output": 2.2
+      "input": 0.43,
+      "output": 1.75
     },
     "z-ai/glm-4.6v": {
       "input": 0.3,
@@ -1957,6 +1961,10 @@
       "input": 0.966,
       "output": 3.036
     },
+    "z-ai/glm-5.2:batch": {
+      "input": 0.7,
+      "output": 2.2
+    },
     "z-ai/glm-5.3": {
       "input": 1.4,
       "output": 4.4
@@ -1966,8 +1974,12 @@
       "output": 0.25
     },
     "z-ai/glm-5.3-flash:batch": {
-      "input": 0.15,
-      "output": 0.5
+      "input": 0.075,
+      "output": 0.25
+    },
+    "z-ai/glm-5.3:batch": {
+      "input": 0.7,
+      "output": 2.2
     },
     "z-ai/glm-5v-turbo": {
       "input": 1.2,
@@ -2002,8 +2014,8 @@
       "output": 12.0
     },
     "~moonshotai/kimi-latest": {
-      "input": 2.5,
-      "output": 14.0
+      "input": 2.4,
+      "output": 12.0
     },
     "~openai/gpt-latest": {
       "input": 2.0,
@@ -2018,12 +2030,12 @@
       "output": 6.0
     },
     "~z-ai/glm-flash-latest": {
-      "input": 0.07125,
-      "output": 0.2375
+      "input": 0.075,
+      "output": 0.25
     },
     "~z-ai/glm-latest": {
-      "input": 1.12,
-      "output": 3.52
+      "input": 1.113,
+      "output": 3.498
     }
   }
 }

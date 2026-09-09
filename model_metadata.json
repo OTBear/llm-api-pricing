@@ -851,6 +851,11 @@
       "params_b": null,
       "updated": "2026-08-22"
     },
+    "deepseek/deepseek-v4-flash-vision-exp:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-09"
+    },
     "deepseek/deepseek-v4-pro": {
       "intelligence_index": 45.3,
       "params_b": 1598.8,
@@ -1115,6 +1120,11 @@
       "intelligence_index": 21.9,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "inception/mercury-2.5": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-09"
     },
     "inception/mercury-2.5-preview": {
       "intelligence_index": null,
@@ -1530,6 +1540,16 @@
       "intelligence_index": null,
       "params_b": 396.8,
       "updated": "2026-08-07"
+    },
+    "nex-agi/nex-n2.5-mini:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-09"
+    },
+    "nex-agi/nex-n2.5-pro:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-09"
     },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "intelligence_index": null,
@@ -2770,6 +2790,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-29"
+    },
+    "z-ai/glm-5.3:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-09"
     },
     "z-ai/glm-5v-turbo": {
       "intelligence_index": null,
