@@ -75,6 +75,7 @@
   "deepseek/deepseek-v4-pro": "deepseek/deepseek-v4-pro.jsonl",
   "deepseek/deepseek-v4-pro-0813": "deepseek/deepseek-v4-pro-0813.jsonl",
   "deepseek/deepseek-v4-pro-0813:batch": "deepseek/deepseek-v4-pro-0813_batch.jsonl",
+  "deepseek/deepseek-v4.1-flash": "deepseek/deepseek-v4.1-flash.jsonl",
   "dots-studio/dots-3-note-preview:free": "dots-studio/dots-3-note-preview_free.jsonl",
   "google/gemini-2.5-flash": "google/gemini-2.5-flash.jsonl",
   "google/gemini-2.5-flash-image": "google/gemini-2.5-flash-image.jsonl",

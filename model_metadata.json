@@ -871,6 +871,11 @@
       "params_b": null,
       "updated": "2026-08-29"
     },
+    "deepseek/deepseek-v4.1-flash": {
+      "intelligence_index": null,
+      "params_b": 484.6,
+      "updated": "2026-09-10"
+    },
     "dots-studio/dots-3-note-preview:free": {
       "intelligence_index": null,
       "params_b": null,
