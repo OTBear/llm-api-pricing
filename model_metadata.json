@@ -1166,6 +1166,11 @@
       "params_b": null,
       "updated": "2026-09-05"
     },
+    "inclusionai/ling-3.0-flash-vl:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-11"
+    },
     "inclusionai/ling-3.0-flash:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -2526,10 +2531,20 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "sakana/fugu-max": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-11"
+    },
     "sakana/fugu-ultra": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "sakana/fugu-ultra-v2": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-11"
     },
     "sakana/sakana-namazu": {
       "intelligence_index": null,
