@@ -439,6 +439,11 @@
       "params_b": null,
       "updated": "2026-09-04"
     },
+    "gpt-rosalind-research": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-12"
+    },
     "o1": {
       "intelligence_index": null,
       "params_b": null,
@@ -1166,6 +1171,11 @@
       "params_b": null,
       "updated": "2026-09-05"
     },
+    "inclusionai/ling-3.0-flash-vl": {
+      "intelligence_index": 24.8,
+      "params_b": 124.8,
+      "updated": "2026-09-12"
+    },
     "inclusionai/ling-3.0-flash-vl:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -1185,6 +1195,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "inference-net/schematron-v2-small": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-12"
+    },
+    "inference-net/schematron-v2-turbo": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-12"
     },
     "kwaipilot/kat-coder-air-v2.5": {
       "intelligence_index": null,
@@ -2861,15 +2881,35 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "~openai/gpt-astra-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-12"
+    },
     "~openai/gpt-latest": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "~openai/gpt-luna-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-12"
+    },
     "~openai/gpt-mini-latest": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "~openai/gpt-sol-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-12"
+    },
+    "~openai/gpt-terra-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-12"
     },
     "~x-ai/grok-latest": {
       "intelligence_index": null,

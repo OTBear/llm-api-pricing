@@ -143,6 +143,10 @@
     "input": 20.0,
     "output": 100.0
   },
+  "gpt-rosalind-research": {
+    "input": 5.0,
+    "output": 25.0
+  },
   "o1": {
     "input": 7.5,
     "output": 30.0
