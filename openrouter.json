@@ -244,8 +244,8 @@
     "output": 0.41
   },
   "deepseek/deepseek-v4-flash": {
-    "input": 0.06678,
-    "output": 0.13356
+    "input": 0.049,
+    "output": 0.098
   },
   "deepseek/deepseek-v4-flash-0731": {
     "input": 0.04,
@@ -264,8 +264,8 @@
     "output": 0.33
   },
   "deepseek/deepseek-v4-pro": {
-    "input": 0.799182,
-    "output": 1.598364
+    "input": 1.6,
+    "output": 3.2
   },
   "deepseek/deepseek-v4-pro-0813": {
     "input": 0.57816,
@@ -428,8 +428,8 @@
     "output": 0.1
   },
   "google/gemma-4-26b-a4b-it": {
-    "input": 0.042,
-    "output": 0.22
+    "input": 0.09,
+    "output": 0.3
   },
   "google/gemma-4-26b-a4b-it:free": {
     "input": 0.0,
@@ -528,8 +528,8 @@
     "output": 1.2
   },
   "meta-llama/llama-3.1-70b-instruct": {
-    "input": 0.72,
-    "output": 0.72
+    "input": 0.4,
+    "output": 0.4
   },
   "meta-llama/llama-3.1-8b-instruct": {
     "input": 0.05,
@@ -560,8 +560,8 @@
     "output": 0.18
   },
   "meta/muse-glimmer-30b": {
-    "input": 0.3,
-    "output": 1.1
+    "input": 0.35,
+    "output": 1.5
   },
   "meta/muse-glimmer-30b:batch": {
     "input": 0.175,
@@ -616,8 +616,8 @@
     "output": 1.2
   },
   "minimax/minimax-m2.5": {
-    "input": 0.3,
-    "output": 1.2
+    "input": 0.27,
+    "output": 1.08
   },
   "minimax/minimax-m2.7": {
     "input": 0.3,
@@ -756,8 +756,8 @@
     "output": 3.5
   },
   "moonshotai/kimi-k3": {
-    "input": 2.302729,
-    "output": 11.550195
+    "input": 2.648138,
+    "output": 13.282724
   },
   "moonshotai/kimi-k3:batch": {
     "input": 3.0,
@@ -1312,8 +1312,8 @@
     "output": 0.5
   },
   "qwen/qwen3-30b-a3b-instruct-2507": {
-    "input": 0.09,
-    "output": 0.3
+    "input": 0.04815,
+    "output": 0.19305
   },
   "qwen/qwen3-30b-a3b-thinking-2507": {
     "input": 0.2,
@@ -1696,12 +1696,12 @@
     "output": 2.2
   },
   "z-ai/glm-5.3": {
-    "input": 1.4,
-    "output": 4.4
+    "input": 1.092,
+    "output": 3.432
   },
   "z-ai/glm-5.3-flash": {
-    "input": 0.075,
-    "output": 0.25
+    "input": 0.15,
+    "output": 0.5
   },
   "z-ai/glm-5.3-flash:batch": {
     "input": 0.075,
@@ -1732,8 +1732,8 @@
     "output": 10.0
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "input": 0.03,
-    "output": 0.07
+    "input": 0.0352,
+    "output": 0.1056
   },
   "~google/gemini-flash-latest": {
     "input": 0.75,
@@ -1744,8 +1744,8 @@
     "output": 12.0
   },
   "~moonshotai/kimi-latest": {
-    "input": 2.125,
-    "output": 11.9
+    "input": 2.1,
+    "output": 10.95
   },
   "~openai/gpt-astra-latest": {
     "input": 10.0,
@@ -1776,7 +1776,7 @@
     "output": 0.25
   },
   "~z-ai/glm-latest": {
-    "input": 0.8727,
-    "output": 3.36
+    "input": 0.936,
+    "output": 3.168
   }
 }
