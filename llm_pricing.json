@@ -550,12 +550,12 @@
       "output": 0.41
     },
     "deepseek/deepseek-v4-flash": {
-      "input": 0.049,
-      "output": 0.098
+      "input": 0.088606,
+      "output": 0.177212
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "input": 0.04,
-      "output": 0.08
+      "input": 0.06,
+      "output": 0.12
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
       "input": 0.11,
@@ -574,8 +574,8 @@
       "output": 3.2
     },
     "deepseek/deepseek-v4-pro-0813": {
-      "input": 0.57816,
-      "output": 1.73448
+      "input": 0.9834,
+      "output": 2.9502
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
       "input": 0.66,
@@ -1114,8 +1114,8 @@
       "output": 0.0
     },
     "nvidia/nemotron-3-ultra-550b-a55b": {
-      "input": 0.625,
-      "output": 3.125
+      "input": 0.6,
+      "output": 2.4
     },
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
       "input": 0.0,
@@ -1598,8 +1598,8 @@
       "output": 1.0
     },
     "qwen/qwen3-14b": {
-      "input": 0.2275,
-      "output": 0.91
+      "input": 0.12,
+      "output": 0.24
     },
     "qwen/qwen3-235b-a22b": {
       "input": 0.455,
@@ -1994,16 +1994,16 @@
       "output": 3.036
     },
     "z-ai/glm-5.2": {
-      "input": 0.6,
-      "output": 2.0
+      "input": 0.6832,
+      "output": 2.1472
     },
     "z-ai/glm-5.2:batch": {
       "input": 0.7,
       "output": 2.2
     },
     "z-ai/glm-5.3": {
-      "input": 1.092,
-      "output": 3.432
+      "input": 1.4,
+      "output": 4.4
     },
     "z-ai/glm-5.3-flash": {
       "input": 0.15,
@@ -2082,8 +2082,8 @@
       "output": 0.25
     },
     "~z-ai/glm-latest": {
-      "input": 0.936,
-      "output": 3.168
+      "input": 0.92,
+      "output": 3.1372
     }
   }
 }
