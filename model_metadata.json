@@ -2861,6 +2861,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "~deepseek/deepseek-flash-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-15"
+    },
+    "~deepseek/deepseek-pro-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-15"
+    },
     "~deepseek/deepseek-v4-flash-latest": {
       "intelligence_index": null,
       "params_b": null,
