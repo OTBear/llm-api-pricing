@@ -217,6 +217,16 @@
       "params_b": null,
       "updated": "2026-09-03"
     },
+    "gemini-3.8-live": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-16"
+    },
+    "gemini-3.8-live-extended-thinking": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-16"
+    },
     "gemini-embedding-001": {
       "intelligence_index": null,
       "params_b": null,
