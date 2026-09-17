@@ -422,6 +422,7 @@
   "sao10k/l3.1-euryale-70b": "sao10k/l3.1-euryale-70b.jsonl",
   "sao10k/l3.3-euryale-70b": "sao10k/l3.3-euryale-70b.jsonl",
   "stealth/ox-alpha": "stealth/ox-alpha.jsonl",
+  "stealth/union-alpha": "stealth/union-alpha.jsonl",
   "stepfun/step-3.5-flash": "stepfun/step-3.5-flash.jsonl",
   "stepfun/step-3.7-flash": "stepfun/step-3.7-flash.jsonl",
   "tencent/hunyuan-a13b-instruct": "tencent/hunyuan-a13b-instruct.jsonl",

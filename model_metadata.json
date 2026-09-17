@@ -2601,6 +2601,11 @@
       "params_b": null,
       "updated": "2026-08-21"
     },
+    "stealth/union-alpha": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-17"
+    },
     "stepfun/step-3.5-flash": {
       "intelligence_index": null,
       "params_b": 199.4,
