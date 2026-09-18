@@ -208,8 +208,8 @@
     "output": 0.0
   },
   "deepseek/deepseek-chat": {
-    "input": 0.2574,
-    "output": 1.0287
+    "input": 0.32,
+    "output": 0.89
   },
   "deepseek/deepseek-chat-v3-0324": {
     "input": 0.25,
@@ -255,9 +255,13 @@
     "input": 0.11,
     "output": 0.33
   },
+  "deepseek/deepseek-v4-flash-0731:free": {
+    "input": 0.0,
+    "output": 0.0
+  },
   "deepseek/deepseek-v4-flash-vision-exp": {
-    "input": 0.22,
-    "output": 0.66
+    "input": 0.2156,
+    "output": 0.6468
   },
   "deepseek/deepseek-v4-flash-vision-exp:batch": {
     "input": 0.11,
@@ -659,10 +663,6 @@
     "input": 2.0,
     "output": 6.0
   },
-  "mistralai/mistral-large-2512": {
-    "input": 0.5,
-    "output": 1.5
-  },
   "mistralai/mistral-large-2512:batch": {
     "input": 0.25,
     "output": 0.75
@@ -748,8 +748,8 @@
     "output": 3.21
   },
   "moonshotai/kimi-k3": {
-    "input": 3.0,
-    "output": 15.0
+    "input": 2.1,
+    "output": 10.95
   },
   "moonshotai/kimi-k3:batch": {
     "input": 3.0,
@@ -1128,8 +1128,8 @@
     "output": 30.0
   },
   "openai/gpt-oss-120b": {
-    "input": 0.037,
-    "output": 0.17
+    "input": 0.15,
+    "output": 0.6
   },
   "openai/gpt-oss-120b:batch": {
     "input": 0.15,
@@ -1455,6 +1455,10 @@
     "input": 0.214,
     "output": 2.55
   },
+  "qwen/qwen3.8-27b:free": {
+    "input": 0.0,
+    "output": 0.0
+  },
   "qwen/qwen3.8-flash": {
     "input": 0.15,
     "output": 0.47
@@ -1506,10 +1510,6 @@
   "sao10k/l3.3-euryale-70b": {
     "input": 0.65,
     "output": 0.75
-  },
-  "stealth/union-alpha": {
-    "input": 0.0,
-    "output": 0.0
   },
   "stepfun/step-3.5-flash": {
     "input": 0.1,
@@ -1579,6 +1579,10 @@
     "input": 0.0,
     "output": 0.0
   },
+  "unbiased/pareto": {
+    "input": 2.5,
+    "output": 7.5
+  },
   "undi95/remm-slerp-l2-13b": {
     "input": 0.35,
     "output": 0.65
@@ -1644,8 +1648,8 @@
     "output": 1.8
   },
   "z-ai/glm-4.6": {
-    "input": 0.5,
-    "output": 2.0
+    "input": 0.43,
+    "output": 1.75
   },
   "z-ai/glm-4.6v": {
     "input": 0.3,
@@ -1672,8 +1676,8 @@
     "output": 3.036
   },
   "z-ai/glm-5.2": {
-    "input": 1.4,
-    "output": 4.4
+    "input": 0.5625,
+    "output": 1.8
   },
   "z-ai/glm-5.2:batch": {
     "input": 0.7,
@@ -1720,16 +1724,16 @@
     "output": 10.0
   },
   "~deepseek/deepseek-flash-latest": {
-    "input": 0.15,
-    "output": 0.6
+    "input": 0.1485,
+    "output": 0.594
   },
   "~deepseek/deepseek-pro-latest": {
     "input": 0.66,
     "output": 1.98
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "input": 0.03,
-    "output": 0.13
+    "input": 0.0558,
+    "output": 0.1767
   },
   "~google/gemini-flash-latest": {
     "input": 0.75,

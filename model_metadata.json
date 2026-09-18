@@ -861,6 +861,11 @@
       "params_b": null,
       "updated": "2026-08-29"
     },
+    "deepseek/deepseek-v4-flash-0731:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-18"
+    },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "intelligence_index": null,
       "params_b": null,
@@ -2526,6 +2531,11 @@
       "params_b": 27.8,
       "updated": "2026-08-15"
     },
+    "qwen/qwen3.8-27b:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-18"
+    },
     "qwen/qwen3.8-flash": {
       "intelligence_index": null,
       "params_b": null,
@@ -2700,6 +2710,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-22"
+    },
+    "unbiased/pareto": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-18"
     },
     "undi95/remm-slerp-l2-13b": {
       "intelligence_index": null,
