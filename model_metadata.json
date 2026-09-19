@@ -2271,6 +2271,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "prism-ml/ternary-bonsai-2-27b": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-19"
+    },
     "qwen/qwen-2.5-72b-instruct": {
       "intelligence_index": null,
       "params_b": 72.7,
@@ -2860,6 +2865,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-29"
+    },
+    "z-ai/glm-5.3-flashx": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-19"
     },
     "z-ai/glm-5.3:batch": {
       "intelligence_index": null,
