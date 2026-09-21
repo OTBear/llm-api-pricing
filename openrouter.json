@@ -244,28 +244,28 @@
     "output": 0.41
   },
   "deepseek/deepseek-v4-flash": {
-    "input": 0.0364,
-    "output": 0.0728
+    "input": 0.088606,
+    "output": 0.177212
   },
   "deepseek/deepseek-v4-flash-0731": {
     "input": 0.04,
-    "output": 0.08
+    "output": 0.16
   },
   "deepseek/deepseek-v4-flash-0731:batch": {
     "input": 0.11,
     "output": 0.33
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
-    "input": 0.2156,
-    "output": 0.6468
+    "input": 0.22,
+    "output": 0.66
   },
   "deepseek/deepseek-v4-flash-vision-exp:batch": {
     "input": 0.11,
     "output": 0.33
   },
   "deepseek/deepseek-v4-pro": {
-    "input": 0.422298,
-    "output": 0.844596
+    "input": 0.95526,
+    "output": 1.91052
   },
   "deepseek/deepseek-v4-pro-0813": {
     "input": 0.66,
@@ -456,8 +456,8 @@
     "output": 0.112
   },
   "ibm-granite/granite-4.2-8b": {
-    "input": 0.06,
-    "output": 0.25
+    "input": 0.1,
+    "output": 0.15
   },
   "inception/mercury-2": {
     "input": 0.25,
@@ -520,8 +520,8 @@
     "output": 1.2
   },
   "meta-llama/llama-3.1-70b-instruct": {
-    "input": 0.4,
-    "output": 0.4
+    "input": 0.72,
+    "output": 0.72
   },
   "meta-llama/llama-3.1-8b-instruct": {
     "input": 0.05,
@@ -540,8 +540,8 @@
     "output": 0.32
   },
   "meta-llama/llama-4-maverick": {
-    "input": 0.1875,
-    "output": 0.6525
+    "input": 0.2,
+    "output": 0.8
   },
   "meta-llama/llama-4-scout": {
     "input": 0.1,
@@ -1356,8 +1356,8 @@
     "output": 4.0
   },
   "qwen/qwen3-vl-30b-a3b-instruct": {
-    "input": 0.2,
-    "output": 0.7
+    "input": 0.13,
+    "output": 0.52
   },
   "qwen/qwen3-vl-30b-a3b-thinking": {
     "input": 0.2,
@@ -1416,8 +1416,8 @@
     "output": 2.0
   },
   "qwen/qwen3.6-35b-a3b": {
-    "input": 0.1,
-    "output": 0.9
+    "input": 0.15,
+    "output": 1.0
   },
   "qwen/qwen3.6-flash": {
     "input": 0.1875,
@@ -1452,8 +1452,8 @@
     "output": 6.0
   },
   "qwen/qwen3.8-27b": {
-    "input": 0.42,
-    "output": 3.0
+    "input": 0.2,
+    "output": 2.5
   },
   "qwen/qwen3.8-27b:free": {
     "input": 0.0,
@@ -1688,8 +1688,8 @@
     "output": 0.0
   },
   "z-ai/glm-5.3": {
-    "input": 0.896,
-    "output": 2.816
+    "input": 0.91,
+    "output": 2.86
   },
   "z-ai/glm-5.3-flash": {
     "input": 0.09,
@@ -1728,16 +1728,16 @@
     "output": 10.0
   },
   "~deepseek/deepseek-flash-latest": {
-    "input": 0.13,
-    "output": 0.52
+    "input": 0.12,
+    "output": 0.48
   },
   "~deepseek/deepseek-pro-latest": {
-    "input": 0.56628,
-    "output": 1.69884
+    "input": 0.66,
+    "output": 1.98
   },
   "~deepseek/deepseek-v4-flash-latest": {
     "input": 0.04,
-    "output": 0.08
+    "output": 0.16
   },
   "~google/gemini-flash-latest": {
     "input": 0.75,
@@ -1780,7 +1780,7 @@
     "output": 0.25
   },
   "~z-ai/glm-latest": {
-    "input": 0.8442,
-    "output": 2.6532
+    "input": 0.7735,
+    "output": 2.431
   }
 }
