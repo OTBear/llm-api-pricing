@@ -1586,10 +1586,20 @@
       "params_b": 396.8,
       "updated": "2026-08-07"
     },
+    "nex-agi/nex-n2.5-mini": {
+      "intelligence_index": null,
+      "params_b": 35.1,
+      "updated": "2026-09-22"
+    },
     "nex-agi/nex-n2.5-mini:free": {
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-09"
+    },
+    "nex-agi/nex-n2.5-pro": {
+      "intelligence_index": null,
+      "params_b": 396.8,
+      "updated": "2026-09-22"
     },
     "nex-agi/nex-n2.5-pro:free": {
       "intelligence_index": null,
@@ -2771,6 +2781,11 @@
       "params_b": null,
       "updated": "2026-08-13"
     },
+    "x-ai/grok-4.7": {
+      "intelligence_index": 46.4,
+      "params_b": null,
+      "updated": "2026-09-22"
+    },
     "x-ai/grok-build-0.1": {
       "intelligence_index": 40.7,
       "params_b": null,
@@ -2785,6 +2800,21 @@
       "intelligence_index": 42.9,
       "params_b": 1023.2,
       "updated": "2026-08-07"
+    },
+    "xiaomi/mimo-v2.6-flash": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-22"
+    },
+    "xiaomi/mimo-v2.6-pro": {
+      "intelligence_index": 46.3,
+      "params_b": null,
+      "updated": "2026-09-22"
+    },
+    "xiaomi/mimo-v2.6-pro-ultraspeed": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-22"
     },
     "z-ai/glm-4.5": {
       "intelligence_index": null,
