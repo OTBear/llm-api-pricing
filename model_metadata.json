@@ -449,6 +449,16 @@
       "params_b": null,
       "updated": "2026-09-04"
     },
+    "gpt-6-luna": {
+      "intelligence_index": 37.3,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "gpt-6-sol": {
+      "intelligence_index": 47.5,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
     "gpt-rosalind-research": {
       "intelligence_index": null,
       "params_b": null,
@@ -676,6 +686,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-opus-5.5": {
+      "intelligence_index": 57.6,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "anthropic/claude-opus-5.5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
     "anthropic/claude-opus-5:batch": {
       "intelligence_index": null,
       "params_b": null,
@@ -775,6 +795,11 @@
       "intelligence_index": 22.8,
       "params_b": 111.1,
       "updated": "2026-08-07"
+    },
+    "cohere/command-a-plus": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
     },
     "cohere/command-r-08-2024": {
       "intelligence_index": null,
@@ -895,6 +920,11 @@
       "intelligence_index": null,
       "params_b": 484.6,
       "updated": "2026-09-10"
+    },
+    "deepseek/deepseek-v4.1-flash:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
     },
     "dots-studio/dots-3-note-preview:free": {
       "intelligence_index": null,
@@ -2076,6 +2106,46 @@
       "params_b": null,
       "updated": "2026-09-05"
     },
+    "openai/gpt-6-luna": {
+      "intelligence_index": 37.3,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "openai/gpt-6-luna-pro": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "openai/gpt-6-luna-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "openai/gpt-6-luna:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "openai/gpt-6-sol": {
+      "intelligence_index": 47.5,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "openai/gpt-6-sol-pro": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "openai/gpt-6-sol-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
+    "openai/gpt-6-sol:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
+    },
     "openai/gpt-audio": {
       "intelligence_index": null,
       "params_b": null,
@@ -2565,6 +2635,11 @@
       "intelligence_index": 46.9,
       "params_b": null,
       "updated": "2026-09-05"
+    },
+    "qwen/qwen3.8-omni-flash": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-23"
     },
     "rekaai/reka-edge": {
       "intelligence_index": null,
