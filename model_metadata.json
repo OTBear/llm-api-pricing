@@ -217,6 +217,16 @@
       "params_b": null,
       "updated": "2026-09-03"
     },
+    "gemini-3.8-flash-lite-tts": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
+    },
+    "gemini-3.8-flash-tts": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
+    },
     "gemini-3.8-live": {
       "intelligence_index": null,
       "params_b": null,
@@ -535,6 +545,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "aion-labs/aion-3.5": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
+    },
+    "aion-labs/aion-3.5-mini": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
     },
     "aion-labs/aion-rp-llama-3.1-8b": {
       "intelligence_index": null,
@@ -930,6 +950,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-15"
+    },
+    "fireworks/ember-1": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
     },
     "google/gemini-2.5-flash": {
       "intelligence_index": null,
@@ -2636,6 +2661,11 @@
       "params_b": null,
       "updated": "2026-09-05"
     },
+    "qwen/qwen3.8-max-prime": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
+    },
     "qwen/qwen3.8-omni-flash": {
       "intelligence_index": null,
       "params_b": null,
@@ -2700,6 +2730,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-21"
+    },
+    "stealth/space-bunny-alpha": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
     },
     "stealth/union-alpha": {
       "intelligence_index": null,
@@ -2810,6 +2845,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "upstage/solar-mini4": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
     },
     "upstage/solar-pro-3": {
       "intelligence_index": 14.5,
@@ -2975,6 +3015,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-19"
+    },
+    "z-ai/glm-5.3-prime": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-24"
     },
     "z-ai/glm-5.3:batch": {
       "intelligence_index": null,
