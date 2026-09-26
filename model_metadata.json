@@ -2331,6 +2331,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "perceptron/perceptron-mk1.5": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-26"
+    },
     "perplexity/sonar": {
       "intelligence_index": null,
       "params_b": null,
@@ -2835,6 +2840,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-22"
+    },
+    "typesafe/jev-router": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-26"
     },
     "unbiased/pareto": {
       "intelligence_index": null,

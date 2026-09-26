@@ -47,10 +47,6 @@
     "input": 2.5,
     "output": 5.0
   },
-  "anthropic/claude-3-haiku": {
-    "input": 0.25,
-    "output": 1.25
-  },
   "anthropic/claude-fable-5": {
     "input": 10.0,
     "output": 50.0
@@ -260,11 +256,11 @@
     "output": 0.41
   },
   "deepseek/deepseek-v4-flash": {
-    "input": 0.049,
-    "output": 0.098
+    "input": 0.04704,
+    "output": 0.09408
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "input": 0.03,
+    "input": 0.021,
     "output": 0.32
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
@@ -272,16 +268,16 @@
     "output": 0.66
   },
   "deepseek/deepseek-v4-pro": {
-    "input": 0.783,
-    "output": 1.566
+    "input": 0.358092,
+    "output": 0.716184
   },
   "deepseek/deepseek-v4-pro-0813": {
-    "input": 0.462,
-    "output": 1.386
+    "input": 0.264,
+    "output": 0.792
   },
   "deepseek/deepseek-v4.1-flash": {
-    "input": 0.15,
-    "output": 0.6
+    "input": 0.3,
+    "output": 1.2
   },
   "deepseek/deepseek-v4.1-flash:batch": {
     "input": 0.112,
@@ -436,8 +432,8 @@
     "output": 0.1
   },
   "google/gemma-4-26b-a4b-it": {
-    "input": 0.09,
-    "output": 0.3
+    "input": 0.0675,
+    "output": 0.225
   },
   "google/gemma-4-26b-a4b-it:free": {
     "input": 0.0,
@@ -496,8 +492,8 @@
     "output": 0.0
   },
   "inclusionai/ling-3.0-flash-vl": {
-    "input": 0.06,
-    "output": 0.18
+    "input": 0.021,
+    "output": 0.0616
   },
   "inference-net/schematron-v2-small": {
     "input": 0.05,
@@ -758,14 +754,6 @@
   "morph/morph-v3-large": {
     "input": 0.9,
     "output": 1.9
-  },
-  "nex-agi/nex-n2.5-mini:free": {
-    "input": 0.0,
-    "output": 0.0
-  },
-  "nex-agi/nex-n2.5-pro:free": {
-    "input": 0.0,
-    "output": 0.0
   },
   "nousresearch/hermes-3-llama-3.1-405b": {
     "input": 1.0,
@@ -1247,6 +1235,10 @@
     "input": 0.15,
     "output": 1.5
   },
+  "perceptron/perceptron-mk1.5": {
+    "input": 0.15,
+    "output": 1.5
+  },
   "perplexity/sonar": {
     "input": 1.0,
     "output": 1.0
@@ -1445,7 +1437,7 @@
   },
   "qwen/qwen3.6-27b": {
     "input": 0.32,
-    "output": 2.7
+    "output": 3.2
   },
   "qwen/qwen3.6-35b-a3b": {
     "input": 0.15,
@@ -1615,6 +1607,10 @@
     "input": 0.0,
     "output": 0.0
   },
+  "typesafe/jev-router": {
+    "input": -1000000.0,
+    "output": -1000000.0
+  },
   "unbiased/pareto": {
     "input": 2.5,
     "output": 7.5
@@ -1735,17 +1731,13 @@
     "input": 0.6496,
     "output": 2.0416
   },
-  "z-ai/glm-5.2:free": {
-    "input": 0.0,
-    "output": 0.0
-  },
   "z-ai/glm-5.3": {
-    "input": 1.4,
-    "output": 4.4
+    "input": 0.3794,
+    "output": 1.1924
   },
   "z-ai/glm-5.3-flash": {
-    "input": 0.045,
-    "output": 0.14
+    "input": 0.04,
+    "output": 0.5
   },
   "z-ai/glm-5.3-flash:batch": {
     "input": 0.06,
@@ -1784,15 +1776,15 @@
     "output": 10.0
   },
   "~deepseek/deepseek-flash-latest": {
-    "input": 0.04,
-    "output": 0.49
+    "input": 0.035,
+    "output": 0.29
   },
   "~deepseek/deepseek-pro-latest": {
-    "input": 0.2528,
-    "output": 2.88
+    "input": 0.24948,
+    "output": 0.74844
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "input": 0.03,
+    "input": 0.021,
     "output": 0.32
   },
   "~google/gemini-flash-latest": {
@@ -1804,8 +1796,8 @@
     "output": 12.0
   },
   "~moonshotai/kimi-latest": {
-    "input": 0.8845,
-    "output": 10.5346
+    "input": 1.0301,
+    "output": 9.043
   },
   "~openai/gpt-astra-latest": {
     "input": 10.0,
@@ -1832,11 +1824,11 @@
     "output": 4.8
   },
   "~z-ai/glm-flash-latest": {
-    "input": 0.045,
-    "output": 0.14
+    "input": 0.04,
+    "output": 0.5
   },
   "~z-ai/glm-latest": {
-    "input": 0.5614,
-    "output": 1.7644
+    "input": 0.3794,
+    "output": 1.1924
   }
 }
