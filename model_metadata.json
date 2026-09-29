@@ -751,6 +751,16 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "anthropic/claude-sonnet-5.5": {
+      "intelligence_index": 56,
+      "params_b": null,
+      "updated": "2026-09-29"
+    },
+    "anthropic/claude-sonnet-5.5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-29"
+    },
     "anthropic/claude-sonnet-5:batch": {
       "intelligence_index": null,
       "params_b": null,

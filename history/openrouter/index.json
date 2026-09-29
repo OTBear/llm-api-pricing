@@ -44,6 +44,8 @@
   "anthropic/claude-sonnet-4.6": "anthropic/claude-sonnet-4.6.jsonl",
   "anthropic/claude-sonnet-4.6:batch": "anthropic/claude-sonnet-4.6_batch.jsonl",
   "anthropic/claude-sonnet-5": "anthropic/claude-sonnet-5.jsonl",
+  "anthropic/claude-sonnet-5.5": "anthropic/claude-sonnet-5.5.jsonl",
+  "anthropic/claude-sonnet-5.5:batch": "anthropic/claude-sonnet-5.5_batch.jsonl",
   "anthropic/claude-sonnet-5:batch": "anthropic/claude-sonnet-5_batch.jsonl",
   "arcee-ai/trinity-large-thinking": "arcee-ai/trinity-large-thinking.jsonl",
   "arcee-ai/virtuoso-large": "arcee-ai/virtuoso-large.jsonl",
