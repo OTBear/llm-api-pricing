@@ -469,6 +469,11 @@
       "params_b": null,
       "updated": "2026-09-23"
     },
+    "gpt-6.1-sol": {
+      "intelligence_index": 51.8,
+      "params_b": null,
+      "updated": "2026-09-30"
+    },
     "gpt-rosalind-research": {
       "intelligence_index": null,
       "params_b": null,
@@ -2180,6 +2185,26 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-23"
+    },
+    "openai/gpt-6.1-sol": {
+      "intelligence_index": 51.8,
+      "params_b": null,
+      "updated": "2026-09-30"
+    },
+    "openai/gpt-6.1-sol-pro": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-30"
+    },
+    "openai/gpt-6.1-sol-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-30"
+    },
+    "openai/gpt-6.1-sol:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-09-30"
     },
     "openai/gpt-audio": {
       "intelligence_index": null,

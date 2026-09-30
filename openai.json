@@ -140,14 +140,18 @@
     "output": 24.0
   },
   "gpt-6-astra": {
-    "input": 20.0,
-    "output": 100.0
+    "input": 60.0,
+    "output": 300.0
   },
   "gpt-6-luna": {
     "input": 0.2,
     "output": 1.0
   },
   "gpt-6-sol": {
+    "input": 4.0,
+    "output": 20.0
+  },
+  "gpt-6.1-sol": {
     "input": 4.0,
     "output": 20.0
   },
