@@ -1,8 +1,4 @@
 {
-  "gemini-2.5-computer-use-preview-10-2025": {
-    "input": 1.25,
-    "output": 10.0
-  },
   "gemini-2.5-flash": {
     "input": 0.3,
     "output": 2.5
