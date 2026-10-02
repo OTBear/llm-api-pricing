@@ -771,6 +771,11 @@
       "params_b": null,
       "updated": "2026-08-08"
     },
+    "apodex/apodex-1.1-mini:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-02"
+    },
     "arcee-ai/trinity-large-thinking": {
       "intelligence_index": null,
       "params_b": 398.6,
@@ -2885,6 +2890,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-18"
+    },
+    "unbiased/pareto-26.10-preview": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-02"
     },
     "undi95/remm-slerp-l2-13b": {
       "intelligence_index": null,
