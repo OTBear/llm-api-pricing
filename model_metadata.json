@@ -1281,6 +1281,11 @@
       "params_b": null,
       "updated": "2026-08-08"
     },
+    "inclusionai/ling-3.1-flash": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-03"
+    },
     "inclusionai/ring-2.6-1t": {
       "intelligence_index": null,
       "params_b": null,
@@ -1770,6 +1775,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "nvidia/switchyard": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-03"
     },
     "openai/gpt-3.5-turbo": {
       "intelligence_index": null,
