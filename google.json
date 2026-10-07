@@ -111,6 +111,10 @@
     "input": 0.75,
     "output": 4.5
   },
+  "gemini-nano-banana-2.1": {
+    "input": 1.5,
+    "output": 7.5
+  },
   "gemini-omni-1.1-flash": {
     "input": 1.5,
     "output": 9.0

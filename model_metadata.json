@@ -242,6 +242,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "gemini-nano-banana-2.1": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-07"
+    },
     "gemini-omni-1.1-flash": {
       "intelligence_index": null,
       "params_b": null,
@@ -1136,6 +1141,11 @@
       "params_b": null,
       "updated": "2026-09-03"
     },
+    "google/gemini-nano-banana-2.1": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-07"
+    },
     "google/gemma-2-27b-it": {
       "intelligence_index": null,
       "params_b": 27.2,
@@ -1530,6 +1540,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-28"
+    },
+    "mistralai/mistral-large-4-0": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-07"
     },
     "mistralai/mistral-medium-3": {
       "intelligence_index": null,

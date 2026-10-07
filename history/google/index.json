@@ -32,6 +32,7 @@
   "gemini-3.8-live": "gemini-3.8-live.jsonl",
   "gemini-3.8-live-extended-thinking": "gemini-3.8-live-extended-thinking.jsonl",
   "gemini-embedding-001": "gemini-embedding-001.jsonl",
+  "gemini-nano-banana-2.1": "gemini-nano-banana-2.1.jsonl",
   "gemini-omni-1.1-flash": "gemini-omni-1.1-flash.jsonl",
   "gemini-omni-flash-preview": "gemini-omni-flash-preview.jsonl",
   "gemini-robotics-er-1.6-preview": "gemini-robotics-er-1.6-preview.jsonl",
