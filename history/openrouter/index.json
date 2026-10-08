@@ -20,6 +20,8 @@
   "anthropic/claude-fable-5:batch": "anthropic/claude-fable-5_batch.jsonl",
   "anthropic/claude-haiku-4.5": "anthropic/claude-haiku-4.5.jsonl",
   "anthropic/claude-haiku-4.5:batch": "anthropic/claude-haiku-4.5_batch.jsonl",
+  "anthropic/claude-haiku-5.5": "anthropic/claude-haiku-5.5.jsonl",
+  "anthropic/claude-haiku-5.5:batch": "anthropic/claude-haiku-5.5_batch.jsonl",
   "anthropic/claude-opus-4": "anthropic/claude-opus-4.jsonl",
   "anthropic/claude-opus-4.1": "anthropic/claude-opus-4.1.jsonl",
   "anthropic/claude-opus-4.1:batch": "anthropic/claude-opus-4.1_batch.jsonl",

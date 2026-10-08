@@ -641,6 +641,16 @@
       "params_b": null,
       "updated": "2026-08-08"
     },
+    "anthropic/claude-haiku-5.5": {
+      "intelligence_index": 43.4,
+      "params_b": null,
+      "updated": "2026-10-08"
+    },
+    "anthropic/claude-haiku-5.5:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-08"
+    },
     "anthropic/claude-opus-4": {
       "intelligence_index": null,
       "params_b": null,
