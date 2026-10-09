@@ -1276,6 +1276,11 @@
       "params_b": null,
       "updated": "2026-08-27"
     },
+    "inclusionai/ling-3.0-flash-sante": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-09"
+    },
     "inclusionai/ling-3.0-flash-sante:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -2830,6 +2835,11 @@
       "intelligence_index": 30.9,
       "params_b": 201.4,
       "updated": "2026-08-07"
+    },
+    "stepfun/step-5-preview": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-09"
     },
     "tencent/hunyuan-a13b-instruct": {
       "intelligence_index": null,
