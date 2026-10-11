@@ -268,20 +268,20 @@
     "output": 0.41
   },
   "deepseek/deepseek-v4-flash": {
-    "input": 0.019,
+    "input": 0.03,
     "output": 1.28
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "input": 0.0103,
-    "output": 1.28
+    "input": 0.018,
+    "output": 0.64
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
     "input": 0.2156,
     "output": 0.6468
   },
   "deepseek/deepseek-v4-pro": {
-    "input": 0.9483,
-    "output": 1.8966
+    "input": 0.2088,
+    "output": 0.4176
   },
   "deepseek/deepseek-v4-pro-0813": {
     "input": 0.66,
@@ -748,16 +748,16 @@
     "output": 2.5
   },
   "moonshotai/kimi-k2.6": {
-    "input": 0.465,
-    "output": 2.45
+    "input": 0.65,
+    "output": 3.41
   },
   "moonshotai/kimi-k2.7-code": {
     "input": 0.6712,
     "output": 3.35
   },
   "moonshotai/kimi-k3": {
-    "input": 0.64,
-    "output": 13.5
+    "input": 0.8,
+    "output": 10.0
   },
   "moonshotai/kimi-k3:batch": {
     "input": 2.28,
@@ -808,8 +808,8 @@
     "output": 0.0
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
-    "input": 0.5,
-    "output": 2.2
+    "input": 0.6,
+    "output": 2.4
   },
   "nvidia/nemotron-3-ultra-550b-a55b:free": {
     "input": 0.0,
@@ -1444,8 +1444,8 @@
     "output": 3.2
   },
   "qwen/qwen3.6-35b-a3b": {
-    "input": 0.15,
-    "output": 1.0
+    "input": 0.1,
+    "output": 0.95
   },
   "qwen/qwen3.6-flash": {
     "input": 0.1875,
@@ -1472,8 +1472,8 @@
     "output": 6.0
   },
   "qwen/qwen3.8-27b": {
-    "input": 0.425,
-    "output": 2.55
+    "input": 0.04,
+    "output": 2.3
   },
   "qwen/qwen3.8-flash": {
     "input": 0.15,
@@ -1776,16 +1776,16 @@
     "output": 10.0
   },
   "~deepseek/deepseek-flash-latest": {
-    "input": 0.0001,
-    "output": 0.6
+    "input": 0.0348,
+    "output": 0.1392
   },
   "~deepseek/deepseek-pro-latest": {
-    "input": 0.22,
-    "output": 4.0
+    "input": 0.21912,
+    "output": 0.65736
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "input": 0.0103,
-    "output": 1.28
+    "input": 0.018,
+    "output": 0.64
   },
   "~google/gemini-flash-latest": {
     "input": 0.75,
@@ -1796,8 +1796,8 @@
     "output": 12.0
   },
   "~moonshotai/kimi-latest": {
-    "input": 0.33,
-    "output": 14.89
+    "input": 0.75,
+    "output": 14.9
   },
   "~openai/gpt-astra-latest": {
     "input": 10.0,
