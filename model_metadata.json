@@ -1431,6 +1431,11 @@
       "params_b": null,
       "updated": "2026-09-03"
     },
+    "meta/muse-wonder": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-13"
+    },
     "microsoft/phi-4": {
       "intelligence_index": null,
       "params_b": 14.7,
@@ -2810,6 +2815,16 @@
       "intelligence_index": null,
       "params_b": 70.6,
       "updated": "2026-08-07"
+    },
+    "scaledown/extract": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-13"
+    },
+    "scaledown/summarize": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-13"
     },
     "stealth/ox-alpha": {
       "intelligence_index": null,
