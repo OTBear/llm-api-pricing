@@ -1151,6 +1151,16 @@
       "params_b": null,
       "updated": "2026-09-03"
     },
+    "google/gemini-4-argon": {
+      "intelligence_index": 52.6,
+      "params_b": null,
+      "updated": "2026-10-14"
+    },
+    "google/gemini-4-argon:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-14"
+    },
     "google/gemini-nano-banana-2.1": {
       "intelligence_index": null,
       "params_b": null,
@@ -1345,6 +1355,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-12"
+    },
+    "liquid/lfm-2.5-24b-a2b": {
+      "intelligence_index": null,
+      "params_b": 24.0,
+      "updated": "2026-10-14"
     },
     "mancer/weaver": {
       "intelligence_index": null,
@@ -2956,6 +2971,11 @@
       "params_b": null,
       "updated": "2026-10-02"
     },
+    "unbiased/pareto-26.9": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-14"
+    },
     "undi95/remm-slerp-l2-13b": {
       "intelligence_index": null,
       "params_b": null,
@@ -3225,6 +3245,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-12"
+    },
+    "~unbiased/pareto-latest": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-14"
     },
     "~x-ai/grok-latest": {
       "intelligence_index": null,
