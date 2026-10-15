@@ -103,6 +103,10 @@
     "input": 0.75,
     "output": 4.5
   },
+  "gemini-4-argon": {
+    "input": 2.0,
+    "output": 10.0
+  },
   "gemini-nano-banana-2.1": {
     "input": 1.5,
     "output": 7.5
