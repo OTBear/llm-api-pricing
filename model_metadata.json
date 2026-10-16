@@ -1451,6 +1451,11 @@
       "params_b": null,
       "updated": "2026-09-03"
     },
+    "meta/muse-spark-open": {
+      "intelligence_index": null,
+      "params_b": 822.0,
+      "updated": "2026-10-16"
+    },
     "meta/muse-wonder": {
       "intelligence_index": null,
       "params_b": null,
@@ -1656,6 +1661,16 @@
       "params_b": 24.3,
       "updated": "2026-08-07"
     },
+    "moondream/moondream3-preview": {
+      "intelligence_index": null,
+      "params_b": 9.3,
+      "updated": "2026-10-16"
+    },
+    "moondream/moondream3.1-9b-a2b": {
+      "intelligence_index": null,
+      "params_b": 9.3,
+      "updated": "2026-10-16"
+    },
     "moonshotai/kimi-k2": {
       "intelligence_index": null,
       "params_b": 1026.5,
@@ -1820,6 +1835,16 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-12"
+    },
+    "nvidia/nemotron-3.5-super-vl": {
+      "intelligence_index": 26.5,
+      "params_b": null,
+      "updated": "2026-10-16"
+    },
+    "nvidia/nemotron-3.5-super-vl:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-16"
     },
     "nvidia/nemotron-nano-12b-v2-vl:free": {
       "intelligence_index": null,
