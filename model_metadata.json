@@ -981,6 +981,11 @@
       "params_b": 484.6,
       "updated": "2026-09-10"
     },
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "intelligence_index": null,
+      "params_b": 763.2,
+      "updated": "2026-10-17"
+    },
     "deepseek/deepseek-v4.1-flash:batch": {
       "intelligence_index": null,
       "params_b": null,
@@ -990,6 +995,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-15"
+    },
+    "elorian/glimpse": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-17"
     },
     "fireworks/ember-1": {
       "intelligence_index": null,
@@ -2761,6 +2771,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "qwen/qwen3.7-plus:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-17"
+    },
     "qwen/qwen3.8-2.4t-a95b": {
       "intelligence_index": null,
       "params_b": 2446.2,
@@ -2805,6 +2820,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-23"
+    },
+    "reflection/beam-1.0-501b-a23b": {
+      "intelligence_index": null,
+      "params_b": 501.3,
+      "updated": "2026-10-17"
     },
     "rekaai/reka-edge": {
       "intelligence_index": null,
@@ -3095,6 +3115,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-22"
+    },
+    "xingchen-agi/xing4.0-29b-a4b:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-17"
     },
     "z-ai/glm-4.5": {
       "intelligence_index": null,
