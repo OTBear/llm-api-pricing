@@ -498,6 +498,7 @@
   "thinkingmachines/inkling:free": "thinkingmachines/inkling_free.jsonl",
   "typesafe/jev-router": "typesafe/jev-router.jsonl",
   "unbiased/pareto": "unbiased/pareto.jsonl",
+  "unbiased/pareto-26.10": "unbiased/pareto-26.10.jsonl",
   "unbiased/pareto-26.10-preview": "unbiased/pareto-26.10-preview.jsonl",
   "unbiased/pareto-26.9": "unbiased/pareto-26.9.jsonl",
   "undi95/remm-slerp-l2-13b": "undi95/remm-slerp-l2-13b.jsonl",

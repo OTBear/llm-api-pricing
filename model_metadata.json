@@ -3016,6 +3016,11 @@
       "params_b": null,
       "updated": "2026-09-18"
     },
+    "unbiased/pareto-26.10": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-18"
+    },
     "unbiased/pareto-26.10-preview": {
       "intelligence_index": null,
       "params_b": null,
