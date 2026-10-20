@@ -1276,6 +1276,11 @@
       "params_b": null,
       "updated": "2026-09-02"
     },
+    "inception/mercury-3": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-20"
+    },
     "inclusionai/ling-2.6-1t": {
       "intelligence_index": null,
       "params_b": null,
@@ -1525,6 +1530,11 @@
       "intelligence_index": 45.4,
       "params_b": 427.0,
       "updated": "2026-08-07"
+    },
+    "minimax/minimax-m3.1-flash:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-20"
     },
     "minimax/minimax-m3:batch": {
       "intelligence_index": null,
