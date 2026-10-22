@@ -461,6 +461,7 @@
   "qwen/qwen3.8-max-0902": "qwen/qwen3.8-max-0902.jsonl",
   "qwen/qwen3.8-max-prime": "qwen/qwen3.8-max-prime.jsonl",
   "qwen/qwen3.8-omni-flash": "qwen/qwen3.8-omni-flash.jsonl",
+  "recursive/flint-v1.0:free": "recursive/flint-v1.0_free.jsonl",
   "reflection/beam-1.0-501b-a23b": "reflection/beam-1.0-501b-a23b.jsonl",
   "rekaai/reka-edge": "rekaai/reka-edge.jsonl",
   "rekaai/reka-flash-3": "rekaai/reka-flash-3.jsonl",
