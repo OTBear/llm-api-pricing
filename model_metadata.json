@@ -1531,6 +1531,11 @@
       "params_b": 427.0,
       "updated": "2026-08-07"
     },
+    "minimax/minimax-m3.1-flash": {
+      "intelligence_index": 42.7,
+      "params_b": 220.5,
+      "updated": "2026-10-23"
+    },
     "minimax/minimax-m3.1-flash:free": {
       "intelligence_index": null,
       "params_b": null,

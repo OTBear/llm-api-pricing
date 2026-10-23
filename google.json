@@ -115,10 +115,6 @@
     "input": 1.5,
     "output": 9.0
   },
-  "gemini-omni-flash-preview": {
-    "input": 1.5,
-    "output": 9.0
-  },
   "gemini-robotics-er-2-preview": {
     "input": 1.0,
     "output": 5.0

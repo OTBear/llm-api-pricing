@@ -623,9 +623,9 @@
     "input": 0.3,
     "output": 1.2
   },
-  "minimax/minimax-m3.1-flash:free": {
-    "input": 0.0,
-    "output": 0.0
+  "minimax/minimax-m3.1-flash": {
+    "input": 0.15,
+    "output": 0.6
   },
   "mistralai/codestral-2508": {
     "input": 0.3,
@@ -720,8 +720,8 @@
     "output": 0.555
   },
   "mistralai/mistral-small-3.2-24b-instruct": {
-    "input": 0.09375,
-    "output": 0.25
+    "input": 0.075,
+    "output": 0.2
   },
   "mistralai/mixtral-8x22b-instruct": {
     "input": 2.0,
@@ -1440,8 +1440,8 @@
     "output": 3.6
   },
   "qwen/qwen3.5-9b": {
-    "input": 0.08,
-    "output": 0.13
+    "input": 0.17,
+    "output": 0.25
   },
   "qwen/qwen3.5-flash-02-23": {
     "input": 0.065,
@@ -1492,8 +1492,8 @@
     "output": 6.0
   },
   "qwen/qwen3.8-27b": {
-    "input": 0.04,
-    "output": 1.35
+    "input": 0.2,
+    "output": 2.5
   },
   "qwen/qwen3.8-flash": {
     "input": 0.15,
@@ -1516,7 +1516,7 @@
     "output": 0.0
   },
   "reflection/beam-1.0-501b-a23b": {
-    "input": 0.3,
+    "input": 0.25,
     "output": 1.0
   },
   "rekaai/reka-edge": {
@@ -1816,7 +1816,7 @@
     "output": 0.5
   },
   "~deepseek/deepseek-pro-latest": {
-    "input": 0.2235,
+    "input": 0.2565,
     "output": 8.0
   },
   "~deepseek/deepseek-v4-flash-latest": {

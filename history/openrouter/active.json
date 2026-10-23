@@ -155,7 +155,7 @@
   "minimax/minimax-m2.5",
   "minimax/minimax-m2.7",
   "minimax/minimax-m3",
-  "minimax/minimax-m3.1-flash:free",
+  "minimax/minimax-m3.1-flash",
   "mistralai/codestral-2508",
   "mistralai/codestral-2508:batch",
   "mistralai/devstral-2512",
