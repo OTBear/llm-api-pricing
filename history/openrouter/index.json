@@ -238,6 +238,7 @@
   "moonshotai/kimi-k2.7-code": "moonshotai/kimi-k2.7-code.jsonl",
   "moonshotai/kimi-k2.7-code:batch": "moonshotai/kimi-k2.7-code_batch.jsonl",
   "moonshotai/kimi-k3": "moonshotai/kimi-k3.jsonl",
+  "moonshotai/kimi-k3.1-pro": "moonshotai/kimi-k3.1-pro.jsonl",
   "moonshotai/kimi-k3:batch": "moonshotai/kimi-k3_batch.jsonl",
   "morph/morph-v3-fast": "morph/morph-v3-fast.jsonl",
   "morph/morph-v3-large": "morph/morph-v3-large.jsonl",

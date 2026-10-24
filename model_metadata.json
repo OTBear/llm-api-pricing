@@ -1736,6 +1736,11 @@
       "params_b": 2779.9,
       "updated": "2026-08-07"
     },
+    "moonshotai/kimi-k3.1-pro": {
+      "intelligence_index": 55.1,
+      "params_b": null,
+      "updated": "2026-10-24"
+    },
     "moonshotai/kimi-k3:batch": {
       "intelligence_index": null,
       "params_b": null,
