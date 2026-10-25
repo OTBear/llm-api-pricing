@@ -165,6 +165,7 @@
   "kwaipilot/kat-coder-air-v2.5": "kwaipilot/kat-coder-air-v2.5.jsonl",
   "kwaipilot/kat-coder-pro-v2": "kwaipilot/kat-coder-pro-v2.jsonl",
   "kwaipilot/kat-coder-pro-v2.5": "kwaipilot/kat-coder-pro-v2.5.jsonl",
+  "liquid/lfm-2.5-2.6b": "liquid/lfm-2.5-2.6b.jsonl",
   "liquid/lfm-2.5-2.6b:free": "liquid/lfm-2.5-2.6b_free.jsonl",
   "liquid/lfm-2.5-24b-a2b": "liquid/lfm-2.5-24b-a2b.jsonl",
   "mancer/weaver": "mancer/weaver.jsonl",

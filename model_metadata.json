@@ -1371,6 +1371,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "liquid/lfm-2.5-2.6b": {
+      "intelligence_index": 8.4,
+      "params_b": 2.7,
+      "updated": "2026-10-25"
+    },
     "liquid/lfm-2.5-2.6b:free": {
       "intelligence_index": null,
       "params_b": null,
