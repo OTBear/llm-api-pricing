@@ -2571,6 +2571,11 @@
       "params_b": null,
       "updated": "2026-09-19"
     },
+    "prism-ml/ternary-bonsai-2-9b": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-10-28"
+    },
     "qwen/qwen-2.5-72b-instruct": {
       "intelligence_index": null,
       "params_b": 72.7,

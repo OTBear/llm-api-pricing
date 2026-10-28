@@ -409,6 +409,7 @@
   "poolside/laguna-xs-2.1": "poolside/laguna-xs-2.1.jsonl",
   "poolside/laguna-xs-2.1:free": "poolside/laguna-xs-2.1_free.jsonl",
   "prism-ml/ternary-bonsai-2-27b": "prism-ml/ternary-bonsai-2-27b.jsonl",
+  "prism-ml/ternary-bonsai-2-9b": "prism-ml/ternary-bonsai-2-9b.jsonl",
   "qwen/qwen-2.5-72b-instruct": "qwen/qwen-2.5-72b-instruct.jsonl",
   "qwen/qwen-2.5-7b-instruct": "qwen/qwen-2.5-7b-instruct.jsonl",
   "qwen/qwen-2.5-coder-32b-instruct": "qwen/qwen-2.5-coder-32b-instruct.jsonl",
