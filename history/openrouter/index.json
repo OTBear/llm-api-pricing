@@ -397,6 +397,7 @@
   "openrouter/free": "openrouter/free.jsonl",
   "openrouter/fusion": "openrouter/fusion.jsonl",
   "openrouter/pareto-code": "openrouter/pareto-code.jsonl",
+  "particle-ai/particle-1": "particle-ai/particle-1.jsonl",
   "perceptron/perceptron-mk1": "perceptron/perceptron-mk1.jsonl",
   "perceptron/perceptron-mk1.5": "perceptron/perceptron-mk1.5.jsonl",
   "perplexity/sonar": "perplexity/sonar.jsonl",
