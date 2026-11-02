@@ -436,8 +436,8 @@
     "output": 0.1
   },
   "google/gemma-4-26b-a4b-it": {
-    "input": 0.0675,
-    "output": 0.225
+    "input": 0.052,
+    "output": 0.157
   },
   "google/gemma-4-26b-a4b-it:free": {
     "input": 0.0,
@@ -532,8 +532,8 @@
     "output": 0.201
   },
   "meta-llama/llama-3.2-3b-instruct": {
-    "input": 0.05,
-    "output": 0.33
+    "input": 0.0509,
+    "output": 0.335
   },
   "meta-llama/llama-3.3-70b-instruct": {
     "input": 0.1,
@@ -766,14 +766,6 @@
   "nex-agi/nex-n2.5-pro": {
     "input": 0.075,
     "output": 0.25
-  },
-  "nousresearch/hermes-3-llama-3.1-405b": {
-    "input": 1.0,
-    "output": 1.0
-  },
-  "nousresearch/hermes-3-llama-3.1-70b": {
-    "input": 0.7,
-    "output": 0.7
   },
   "nousresearch/hermes-4-405b": {
     "input": 1.0,
@@ -1180,8 +1172,8 @@
     "output": 30.0
   },
   "openai/gpt-oss-120b": {
-    "input": 0.017,
-    "output": 0.062
+    "input": 0.15,
+    "output": 0.6
   },
   "openai/gpt-oss-120b:batch": {
     "input": 0.0296,
@@ -1719,6 +1711,10 @@
     "input": 0.37,
     "output": 1.25
   },
+  "z-ai/glm-5.3-flashx-legal": {
+    "input": 0.37,
+    "output": 1.25
+  },
   "z-ai/glm-5.3-prime": {
     "input": 2.8,
     "output": 8.8
@@ -1756,7 +1752,7 @@
     "output": 8.0
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "input": 0.0434,
+    "input": 0.059,
     "output": 0.3
   },
   "~google/gemini-flash-latest": {
