@@ -389,8 +389,8 @@
       "output": 0.182
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "input": 0.119,
-      "output": 0.238
+      "input": 0.059,
+      "output": 0.3
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "input": 0.2156,
@@ -569,8 +569,8 @@
       "output": 0.1
     },
     "google/gemma-4-26b-a4b-it": {
-      "input": 0.052,
-      "output": 0.157
+      "input": 0.06,
+      "output": 0.179
     },
     "google/gemma-4-26b-a4b-it:free": {
       "input": 0.0,
@@ -653,8 +653,8 @@
       "output": 1.2
     },
     "meta-llama/llama-3.1-70b-instruct": {
-      "input": 0.4,
-      "output": 0.4
+      "input": 0.72,
+      "output": 0.72
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "input": 0.05,
@@ -669,8 +669,8 @@
       "output": 0.335
     },
     "meta-llama/llama-3.3-70b-instruct": {
-      "input": 0.1,
-      "output": 0.32
+      "input": 0.2,
+      "output": 0.52
     },
     "meta-llama/llama-4-maverick": {
       "input": 0.1875,
@@ -1457,8 +1457,8 @@
       "output": 1.0
     },
     "qwen/qwen3-coder-30b-a3b-instruct": {
-      "input": 0.07,
-      "output": 0.28
+      "input": 0.15,
+      "output": 0.6
     },
     "qwen/qwen3-coder-flash": {
       "input": 0.195,
@@ -1469,7 +1469,7 @@
       "output": 0.8
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
-      "input": 0.09,
+      "input": 0.1,
       "output": 1.1
     },
     "qwen/qwen3-vl-235b-a22b-instruct": {
@@ -1833,8 +1833,8 @@
       "output": 3.6
     },
     "z-ai/glm-5.3-flash": {
-      "input": 0.0285,
-      "output": 0.0923
+      "input": 0.0313,
+      "output": 0.0846
     },
     "z-ai/glm-5.3-flash:batch": {
       "input": 0.05,
@@ -1878,7 +1878,7 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "input": 0.035,
-      "output": 0.5
+      "output": 0.315
     },
     "~deepseek/deepseek-pro-latest": {
       "input": 0.1035,
@@ -1897,8 +1897,8 @@
       "output": 10.0
     },
     "~moonshotai/kimi-latest": {
-      "input": 0.1495,
-      "output": 7.15
+      "input": 0.1548,
+      "output": 9.3388
     },
     "~openai/gpt-astra-latest": {
       "input": 10.0,
@@ -1929,8 +1929,8 @@
       "output": 6.0
     },
     "~z-ai/glm-flash-latest": {
-      "input": 0.0285,
-      "output": 0.0923
+      "input": 0.0313,
+      "output": 0.0846
     },
     "~z-ai/glm-latest": {
       "input": 0.0699,
