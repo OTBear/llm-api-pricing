@@ -2951,6 +2951,11 @@
       "params_b": null,
       "updated": "2026-10-13"
     },
+    "stealth/crouton-alpha": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-04"
+    },
     "stealth/ox-alpha": {
       "intelligence_index": null,
       "params_b": null,
@@ -3010,6 +3015,11 @@
       "intelligence_index": 42.2,
       "params_b": 298.8,
       "updated": "2026-08-07"
+    },
+    "tencent/hy4": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-04"
     },
     "tencent/hy4-preview": {
       "intelligence_index": null,
@@ -3146,10 +3156,20 @@
       "params_b": null,
       "updated": "2026-08-13"
     },
+    "x-ai/grok-4.6:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-04"
+    },
     "x-ai/grok-4.7": {
       "intelligence_index": 46.4,
       "params_b": null,
       "updated": "2026-09-22"
+    },
+    "x-ai/grok-4.7:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-04"
     },
     "x-ai/grok-build-0.1": {
       "intelligence_index": 40.7,
