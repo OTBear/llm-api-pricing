@@ -1331,6 +1331,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "inclusionai/ling-3.0-tiny": {
+      "intelligence_index": null,
+      "params_b": 7.9,
+      "updated": "2026-11-05"
+    },
     "inclusionai/ling-3.0-tiny:free": {
       "intelligence_index": null,
       "params_b": null,
@@ -2491,6 +2496,11 @@
       "params_b": null,
       "updated": "2026-08-07"
     },
+    "openrouter/auto-code": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-05"
+    },
     "openrouter/bodybuilder": {
       "intelligence_index": null,
       "params_b": null,
@@ -2905,6 +2915,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-08-07"
+    },
+    "ricursiveai/ripple-65b-preview": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-05"
     },
     "sakana/fugu-max": {
       "intelligence_index": null,
