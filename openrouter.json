@@ -224,8 +224,8 @@
     "output": 0.0
   },
   "deepseek/deepseek-chat": {
-    "input": 0.2574,
-    "output": 1.0287
+    "input": 0.32,
+    "output": 0.89
   },
   "deepseek/deepseek-chat-v3-0324": {
     "input": 0.29,
@@ -256,24 +256,24 @@
     "output": 0.182
   },
   "deepseek/deepseek-v4-flash-0731": {
-    "input": 0.0566,
+    "input": 0.059,
     "output": 0.3
   },
   "deepseek/deepseek-v4-flash-vision-exp": {
-    "input": 0.2156,
-    "output": 0.6468
+    "input": 0.44,
+    "output": 1.32
   },
   "deepseek/deepseek-v4-pro": {
-    "input": 1.6,
-    "output": 3.2
+    "input": 0.894012,
+    "output": 1.788024
   },
   "deepseek/deepseek-v4-pro-0813": {
-    "input": 0.103,
-    "output": 4.11
+    "input": 0.1165,
+    "output": 4.66
   },
   "deepseek/deepseek-v4.1-flash": {
-    "input": 0.045,
-    "output": 0.5
+    "input": 0.051,
+    "output": 0.567
   },
   "deepseek/deepseek-v4.1-flash-1017": {
     "input": 0.15,
@@ -419,6 +419,14 @@
     "input": 1.5,
     "output": 7.5
   },
+  "google/gemini-omni-1.1-flash": {
+    "input": 1.5,
+    "output": 9.0
+  },
+  "google/gemini-omni-1.2-flash": {
+    "input": 1.5,
+    "output": 9.0
+  },
   "google/gemma-2-27b-it": {
     "input": 0.65,
     "output": 0.65
@@ -436,8 +444,8 @@
     "output": 0.1
   },
   "google/gemma-4-26b-a4b-it": {
-    "input": 0.061,
-    "output": 0.184
+    "input": 0.09,
+    "output": 0.3
   },
   "google/gemma-4-26b-a4b-it:free": {
     "input": 0.0,
@@ -540,8 +548,8 @@
     "output": 0.335
   },
   "meta-llama/llama-3.3-70b-instruct": {
-    "input": 0.2,
-    "output": 0.52
+    "input": 0.59,
+    "output": 0.79
   },
   "meta-llama/llama-4-maverick": {
     "input": 0.35,
@@ -768,8 +776,8 @@
     "output": 0.0
   },
   "nvidia/nemotron-3-super-120b-a12b": {
-    "input": 0.3,
-    "output": 2.4
+    "input": 0.075,
+    "output": 0.4
   },
   "nvidia/nemotron-3-ultra-550b-a55b": {
     "input": 0.6,
@@ -782,10 +790,6 @@
   "nvidia/nemotron-3.5-content-safety": {
     "input": 0.2,
     "output": 0.2
-  },
-  "nvidia/nemotron-3.5-content-safety:free": {
-    "input": 0.0,
-    "output": 0.0
   },
   "nvidia/nemotron-3.5-lightning": {
     "input": 0.07,
@@ -1160,8 +1164,8 @@
     "output": 30.0
   },
   "openai/gpt-oss-120b": {
-    "input": 0.15,
-    "output": 0.6
+    "input": 0.024,
+    "output": 0.09
   },
   "openai/gpt-oss-120b:batch": {
     "input": 0.0296,
@@ -1440,7 +1444,7 @@
     "output": 0.0
   },
   "reflection/beam-1.0-501b-a23b": {
-    "input": 0.25,
+    "input": 0.3,
     "output": 1.0
   },
   "rekaai/reka-edge": {
@@ -1752,12 +1756,12 @@
     "output": 0.5
   },
   "~deepseek/deepseek-pro-latest": {
-    "input": 0.0927,
+    "input": 0.0999,
     "output": 8.0
   },
   "~deepseek/deepseek-v4-flash-latest": {
-    "input": 0.0566,
-    "output": 0.3
+    "input": 0.05896,
+    "output": 0.17688
   },
   "~google/gemini-flash-latest": {
     "input": 0.75,
@@ -1769,7 +1773,7 @@
   },
   "~moonshotai/kimi-latest": {
     "input": 0.1824,
-    "output": 10.5448
+    "output": 9.3388
   },
   "~openai/gpt-astra-latest": {
     "input": 10.0,
@@ -1800,7 +1804,7 @@
     "output": 6.0
   },
   "~z-ai/glm-flash-latest": {
-    "input": 0.0285,
+    "input": 0.0284,
     "output": 0.0923
   },
   "~z-ai/glm-latest": {
