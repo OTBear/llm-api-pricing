@@ -1401,6 +1401,16 @@
       "params_b": 24.0,
       "updated": "2026-10-14"
     },
+    "liquid/lfm-3-1.7b": {
+      "intelligence_index": null,
+      "params_b": 1.7,
+      "updated": "2026-11-07"
+    },
+    "liquid/lfm-3-1.7b:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-07"
+    },
     "mancer/weaver": {
       "intelligence_index": null,
       "params_b": null,
@@ -2865,6 +2875,11 @@
       "intelligence_index": null,
       "params_b": 27.8,
       "updated": "2026-08-15"
+    },
+    "qwen/qwen3.8-27b:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-07"
     },
     "qwen/qwen3.8-27b:free": {
       "intelligence_index": null,
