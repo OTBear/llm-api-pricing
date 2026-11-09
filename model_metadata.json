@@ -2916,6 +2916,11 @@
       "params_b": null,
       "updated": "2026-09-05"
     },
+    "qwen/qwen3.8-max-0902:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-09"
+    },
     "qwen/qwen3.8-max-prime": {
       "intelligence_index": null,
       "params_b": null,

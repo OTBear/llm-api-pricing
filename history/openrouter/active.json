@@ -363,6 +363,7 @@
   "qwen/qwen3.8-27b:batch",
   "qwen/qwen3.8-flash",
   "qwen/qwen3.8-max-0902",
+  "qwen/qwen3.8-max-0902:batch",
   "qwen/qwen3.8-max-prime",
   "qwen/qwen3.8-omni-flash",
   "recursive/flint-v1.0:free",
