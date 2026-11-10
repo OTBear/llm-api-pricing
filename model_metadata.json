@@ -631,6 +631,16 @@
       "params_b": null,
       "updated": "2026-09-02"
     },
+    "anthropic/claude-fable-5.2": {
+      "intelligence_index": 64.6,
+      "params_b": null,
+      "updated": "2026-11-10"
+    },
+    "anthropic/claude-fable-5.2:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-10"
+    },
     "anthropic/claude-fable-5:batch": {
       "intelligence_index": null,
       "params_b": null,
@@ -1466,6 +1476,11 @@
       "params_b": 12.0,
       "updated": "2026-08-07"
     },
+    "meta/muse-ember": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-10"
+    },
     "meta/muse-glimmer-30b": {
       "intelligence_index": null,
       "params_b": 29.8,
@@ -1830,6 +1845,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-09"
+    },
+    "nex-agi/nex-n2.6": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-10"
     },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "intelligence_index": null,
@@ -3110,6 +3130,11 @@
       "intelligence_index": 42.3,
       "params_b": 952.4,
       "updated": "2026-08-07"
+    },
+    "thinkingmachines/inkling-2-small:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-10"
     },
     "thinkingmachines/inkling-small": {
       "intelligence_index": 41.2,
