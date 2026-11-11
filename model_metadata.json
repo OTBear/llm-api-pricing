@@ -821,6 +821,16 @@
       "params_b": 423.5,
       "updated": "2026-08-07"
     },
+    "baidu/ernie-5.5-flash-preview:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-11"
+    },
+    "baidu/ernie-light-dt-1.0-intl": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-11"
+    },
     "bytedance-seed/seed-1.6": {
       "intelligence_index": null,
       "params_b": null,
@@ -1191,6 +1201,16 @@
       "params_b": null,
       "updated": "2026-10-14"
     },
+    "google/gemini-4-carbon": {
+      "intelligence_index": 60,
+      "params_b": null,
+      "updated": "2026-11-11"
+    },
+    "google/gemini-4-carbon:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-11"
+    },
     "google/gemini-nano-banana-2.1": {
       "intelligence_index": null,
       "params_b": null,
@@ -1385,6 +1405,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-09-12"
+    },
+    "kt/midm-k-3.0-pro": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-11"
     },
     "kwaipilot/kat-coder-air-v2.5": {
       "intelligence_index": null,
@@ -1815,6 +1840,11 @@
       "intelligence_index": null,
       "params_b": null,
       "updated": "2026-11-08"
+    },
+    "motif-technologies/motif-3": {
+      "intelligence_index": null,
+      "params_b": 314.8,
+      "updated": "2026-11-11"
     },
     "nex-agi/nex-n2-mini": {
       "intelligence_index": null,
