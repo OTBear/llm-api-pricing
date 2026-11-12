@@ -1816,6 +1816,11 @@
       "params_b": null,
       "updated": "2026-10-24"
     },
+    "moonshotai/kimi-k3.1-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-12"
+    },
     "moonshotai/kimi-k3:batch": {
       "intelligence_index": null,
       "params_b": null,
