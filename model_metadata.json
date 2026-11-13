@@ -1211,6 +1211,16 @@
       "params_b": null,
       "updated": "2026-11-11"
     },
+    "google/gemini-4-hydrogen": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-13"
+    },
+    "google/gemini-4-hydrogen:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-13"
+    },
     "google/gemini-nano-banana-2.1": {
       "intelligence_index": null,
       "params_b": null,
@@ -2616,6 +2626,11 @@
       "params_b": null,
       "updated": "2026-10-29"
     },
+    "particle-ai/particle-1:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-13"
+    },
     "perceptron/perceptron-mk1": {
       "intelligence_index": null,
       "params_b": null,
@@ -3165,6 +3180,11 @@
       "intelligence_index": 42.3,
       "params_b": 952.4,
       "updated": "2026-08-07"
+    },
+    "thinkingmachines/inkling-2-small": {
+      "intelligence_index": 30.6,
+      "params_b": 383.1,
+      "updated": "2026-11-13"
     },
     "thinkingmachines/inkling-2-small:free": {
       "intelligence_index": null,
