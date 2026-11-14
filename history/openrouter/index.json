@@ -171,6 +171,7 @@
   "inclusionai/ling-3.0-tiny": "inclusionai/ling-3.0-tiny.jsonl",
   "inclusionai/ling-3.0-tiny:free": "inclusionai/ling-3.0-tiny_free.jsonl",
   "inclusionai/ling-3.1-flash": "inclusionai/ling-3.1-flash.jsonl",
+  "inclusionai/ling-3.2-flash:free": "inclusionai/ling-3.2-flash_free.jsonl",
   "inclusionai/ring-2.6-1t": "inclusionai/ring-2.6-1t.jsonl",
   "inference-net/schematron-v2-small": "inference-net/schematron-v2-small.jsonl",
   "inference-net/schematron-v2-turbo": "inference-net/schematron-v2-turbo.jsonl",

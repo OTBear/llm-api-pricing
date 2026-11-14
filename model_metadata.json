@@ -1401,6 +1401,11 @@
       "params_b": null,
       "updated": "2026-10-03"
     },
+    "inclusionai/ling-3.2-flash:free": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-14"
+    },
     "inclusionai/ring-2.6-1t": {
       "intelligence_index": null,
       "params_b": null,

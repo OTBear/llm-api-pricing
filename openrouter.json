@@ -228,8 +228,8 @@
     "output": 0.0
   },
   "deepseek/deepseek-chat": {
-    "input": 0.32,
-    "output": 0.89
+    "input": 0.2574,
+    "output": 1.0287
   },
   "deepseek/deepseek-chat-v3-0324": {
     "input": 0.29,
@@ -472,8 +472,8 @@
     "output": 0.1
   },
   "google/gemma-4-26b-a4b-it": {
-    "input": 0.09,
-    "output": 0.3
+    "input": 0.0675,
+    "output": 0.225
   },
   "google/gemma-4-26b-a4b-it:free": {
     "input": 0.0,
@@ -518,6 +518,10 @@
   "inclusionai/ling-3.1-flash": {
     "input": 0.045,
     "output": 0.135
+  },
+  "inclusionai/ling-3.2-flash:free": {
+    "input": 0.0,
+    "output": 0.0
   },
   "inference-net/schematron-v2-small": {
     "input": 0.05,
@@ -564,8 +568,8 @@
     "output": 0.201
   },
   "meta-llama/llama-3.2-3b-instruct": {
-    "input": 0.05,
-    "output": 0.33
+    "input": 0.0509,
+    "output": 0.335
   },
   "meta-llama/llama-3.3-70b-instruct": {
     "input": 0.71,
@@ -764,7 +768,7 @@
     "output": 3.5
   },
   "moonshotai/kimi-k3": {
-    "input": 0.2,
+    "input": 0.192,
     "output": 16.0
   },
   "moonshotai/kimi-k3.1-pro": {
@@ -1084,8 +1088,8 @@
     "output": 0.6
   },
   "openai/gpt-5.6-sol": {
-    "input": 4.4,
-    "output": 22.0
+    "input": 4.0,
+    "output": 20.0
   },
   "openai/gpt-5.6-sol-pro": {
     "input": 4.0,
@@ -1416,8 +1420,8 @@
     "output": 3.6
   },
   "qwen/qwen3.5-9b": {
-    "input": 0.022,
-    "output": 0.032
+    "input": 0.17,
+    "output": 0.25
   },
   "qwen/qwen3.5-flash-02-23": {
     "input": 0.065,
@@ -1840,8 +1844,8 @@
     "output": 10.0
   },
   "~moonshotai/kimi-latest": {
-    "input": 0.19,
-    "output": 10.6066
+    "input": 0.1824,
+    "output": 11.0055
   },
   "~openai/gpt-astra-latest": {
     "input": 10.0,
