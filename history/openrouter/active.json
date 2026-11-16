@@ -373,6 +373,7 @@
   "qwen/qwen3.8-max-0902:batch",
   "qwen/qwen3.8-max-prime",
   "qwen/qwen3.8-omni-flash",
+  "qwen/qwen4-max",
   "recursive/flint-v1.0:free",
   "reflection/beam-1.0-501b-a23b",
   "rekaai/reka-edge",
