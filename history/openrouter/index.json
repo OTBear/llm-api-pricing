@@ -527,6 +527,7 @@
   "tencent/hy3": "tencent/hy3.jsonl",
   "tencent/hy3-preview": "tencent/hy3-preview.jsonl",
   "tencent/hy4": "tencent/hy4.jsonl",
+  "tencent/hy4-flash": "tencent/hy4-flash.jsonl",
   "tencent/hy4-preview": "tencent/hy4-preview.jsonl",
   "thedrummer/cydonia-24b-v4.1": "thedrummer/cydonia-24b-v4.1.jsonl",
   "thedrummer/rocinante-12b": "thedrummer/rocinante-12b.jsonl",
