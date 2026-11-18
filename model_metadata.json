@@ -2466,6 +2466,46 @@
       "params_b": null,
       "updated": "2026-10-27"
     },
+    "openai/gpt-6.2-astra": {
+      "intelligence_index": 62.1,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
+    "openai/gpt-6.2-astra-pro": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
+    "openai/gpt-6.2-astra-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
+    "openai/gpt-6.2-astra:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
+    "openai/gpt-6.2-sol": {
+      "intelligence_index": 57.3,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
+    "openai/gpt-6.2-sol-pro": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
+    "openai/gpt-6.2-sol-pro:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
+    "openai/gpt-6.2-sol:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-18"
+    },
     "openai/gpt-audio": {
       "intelligence_index": null,
       "params_b": null,
