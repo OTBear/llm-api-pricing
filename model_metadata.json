@@ -1221,6 +1221,16 @@
       "params_b": null,
       "updated": "2026-11-13"
     },
+    "google/gemini-4-neon": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-19"
+    },
+    "google/gemini-4-neon:batch": {
+      "intelligence_index": null,
+      "params_b": null,
+      "updated": "2026-11-19"
+    },
     "google/gemini-nano-banana-2.1": {
       "intelligence_index": null,
       "params_b": null,
