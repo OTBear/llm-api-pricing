@@ -247,6 +247,7 @@
   "mistralai/mistral-small-3.1-24b-instruct": "mistralai/mistral-small-3.1-24b-instruct.jsonl",
   "mistralai/mistral-small-3.2-24b-instruct": "mistralai/mistral-small-3.2-24b-instruct.jsonl",
   "mistralai/mixtral-8x22b-instruct": "mistralai/mixtral-8x22b-instruct.jsonl",
+  "mistralai/pixtral-large-2502": "mistralai/pixtral-large-2502.jsonl",
   "mistralai/voxtral-small-24b-2507": "mistralai/voxtral-small-24b-2507.jsonl",
   "moondream/moondream3-preview": "moondream/moondream3-preview.jsonl",
   "moondream/moondream3.1-9b-a2b": "moondream/moondream3.1-9b-a2b.jsonl",
